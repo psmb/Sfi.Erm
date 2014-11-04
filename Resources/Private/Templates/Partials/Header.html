@@ -1,0 +1,18 @@
+{namespace neos=TYPO3\Neos\ViewHelpers}
+<header class="Header">
+	<div class="row">
+		<div class="columns">
+			<div class="Header-Wrap">
+				<div class="Header-Logo">
+					<neos:link.node node="~" title="На главную"><f:render partial="Svg/SiteLogo"/></neos:link.node>
+				</div>
+				<div class="Header-Contacts">
+					{header -> f:format.raw()}
+				</div>
+				<div class="Header-Menu hide">
+					<a href="#menu"><f:render partial="Svg/IconMenu"/></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>

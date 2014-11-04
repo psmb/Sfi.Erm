@@ -1,0 +1,17 @@
+{
+    "name": "sfi/erm",
+    "type": "typo3-flow-site",
+    "description": "Ermolaev.co site package",
+    "require": {
+        "typo3/neos": "*",
+        "typo3/neos-nodetypes": "*",
+        "sfi/grid": "*",
+        "sfi/widgets": "*",
+	"sfi/styleguide": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Sfi\\Erm": "Classes"
+        }
+    }
+}

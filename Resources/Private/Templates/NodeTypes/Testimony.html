@@ -1,0 +1,9 @@
+{namespace neos=TYPO3\Neos\ViewHelpers}
+<div>
+	<neos:contentElement.wrap>
+		<div class="Testimony">
+			<div class="Testimony-Text">{neos:contentElement.editable(property: 'text', tag: 'span')}</div>
+			<div class="Testimony-Name">—{neos:contentElement.editable(property: 'name', tag: 'span')}</div>
+		</div>
+	</neos:contentElement.wrap>
+</div>

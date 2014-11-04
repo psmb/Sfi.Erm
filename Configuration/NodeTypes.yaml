@@ -1,0 +1,119 @@
+
+'Sfi.Erm:MainPage':
+  ui:
+    label: 'Main Page'
+  superTypes:
+    - 'TYPO3.Neos.NodeTypes:Page'
+  childNodes:
+    header:
+      type: 'TYPO3.Neos.NodeTypes:Html'
+    footer:
+      type: 'TYPO3.Neos.NodeTypes:Html'
+    introPicture:
+      type: 'TYPO3.Neos.NodeTypes:Image'
+    introText:
+      type: 'TYPO3.Neos.NodeTypes:Text'
+
+'Sfi.Erm:Doctor':
+  ui:
+    label: 'Doctor'
+  superTypes:
+    - 'TYPO3.Neos.NodeTypes:Page'
+  properties:
+    description:
+      type: string
+      defaultValue: '<p>Short doctor description</p>'
+      ui:
+        inlineEditable: TRUE
+    credo:
+      type: string
+      defaultValue: '<p>Credo</p>'
+      ui:
+        inlineEditable: TRUE
+  childNodes:
+    picture:
+      type: 'TYPO3.Neos.NodeTypes:Image'
+
+'Sfi.Erm:ServiceCategory':
+  ui:
+    label: 'Service category'
+  superTypes:
+    - 'TYPO3.Neos:Shortcut'
+  constraints:
+    nodeTypes:
+      '*': FALSE
+      'Sfi.Erm:Service': TRUE
+
+'Sfi.Erm:Service':
+  ui:
+    label: 'Service'
+  superTypes:
+    - 'TYPO3.Neos.NodeTypes:Page'
+  childNodes:
+    price:
+      type: 'Sfi.Erm:ServicePrice'
+
+
+
+
+'Sfi.Erm:ServicePrice':
+  ui:
+    label: 'Price'
+  superTypes:
+    - 'TYPO3.Neos:Content'
+  properties:
+    text:
+      type: string
+      defaultValue: '<table><tr><td>Service title</td><td>100</td></tr></table>'
+      ui:
+        inlineEditable: TRUE
+        aloha:
+          'format':
+            'b': FALSE
+            'i': FALSE
+            'u': FALSE
+            'sub': FALSE
+            'sup': FALSE
+            'p': FALSE
+            'h1': FALSE
+            'h2': FALSE
+            'h3': FALSE
+            'pre': FALSE
+            'removeFormat': TRUE
+          'table':
+            'table': TRUE
+          'list':
+            'ol': FALSE
+            'ul': FALSE
+          'link':
+            'a': FALSE
+
+'Sfi.Erm:PriceList':
+  ui:
+    label: 'Price list'
+  superTypes:
+    - 'TYPO3.Neos:Content'
+
+'Sfi.Erm:DoctorsList':
+  ui:
+    label: 'Doctors list'
+  superTypes:
+    - 'TYPO3.Neos:Content'
+
+
+'Sfi.Erm:Testimony':
+  ui:
+    label: 'Testimony'
+  superTypes:
+    - 'TYPO3.Neos:Content'
+  properties:
+    name:
+      type: string
+      defaultValue: '<p>Name</p>'
+      ui:
+        inlineEditable: TRUE
+    text:
+      type: string
+      defaultValue: '<p>You are so great!</p>'
+      ui:
+        inlineEditable: TRUE

@@ -1,0 +1,2667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <site name="ermolaev.co" state="1" siteResourcesPackageKey="Sfi.Erm" siteNodeName="erm">
+  <nodes formatVersion="2.0">
+   <node identifier="1cc15e5f-40d5-4e12-422b-cb994dfa5da7" nodeName="erm">
+    <variant sortingIndex="100" workspace="live" nodeType="Sfi.Erm:MainPage" version="3" removed="" hidden="" hiddenInIndex="">
+     <dimensions/>
+     <accessRoles __type="array"/>
+     <properties>
+      <title __type="string">Стоматологическая клиника Доктор Ермолаев</title>
+      <layout __type="string"></layout>
+      <subpageLayout __type="string"></subpageLayout>
+     </properties>
+    </variant>
+    <node identifier="4bbd3f97-6831-efbe-8e13-01070aa5a2ae" nodeName="doctors">
+     <variant sortingIndex="150" workspace="live" nodeType="TYPO3.Neos:Shortcut" version="4" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <properties>
+       <targetMode __type="string">firstChildNode</targetMode>
+       <title __type="string">Наши врачи</title>
+       <target __type="string"></target>
+      </properties>
+     </variant>
+     <node identifier="a7e34f07-a6de-6e8f-96c9-745185103fc7" nodeName="andrej-stepanov">
+      <variant sortingIndex="288" workspace="live" nodeType="Sfi.Erm:Doctor" version="6" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <description __type="string">&lt;p&gt;Стоматолог-терапевт&lt;/p&gt;</description>
+        <title __type="string">Андрей Степанов</title>
+        <layout __type="string"></layout>
+        <subpageLayout __type="string"></subpageLayout>
+       </properties>
+      </variant>
+      <node identifier="fb8bf478-937b-3416-220b-5636fb9c97ad" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+       <node identifier="f31228f5-c0bd-fafe-b5a9-72bc52d54169" nodeName="node-5450f0d372eb7">
+        <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="5" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <properties>
+          <text __type="string">&lt;p&gt;Высококлассный специалист в эндодонтическом лечении зубов. Все
+пациенты отмечают спокойную и терпеливую работу Андрея Геннадьевича. Он очень
+скурпулезный врач и уделяет большое внимание деталям. С каждым пациентом Андрей
+Геннадьевич работает столько, сколько нужно для успешного лечения. Его мудрость
+и рассудительность позволяет пациенту выбрать оптимальное лечение. Его выбор
+тактики лечения всегда обоснован с научной и практической точки зрения.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</text>
+         </properties>
+        </variant>
+       </node>
+      </node>
+      <node identifier="6c6730cf-408a-41ac-be48-96aa746d7f84" nodeName="picture">
+       <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Image" version="7" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <caption __type="string">&lt;p&gt;Enter caption here&lt;/p&gt;</caption>
+         <alignment __type="string"></alignment>
+         <image __type="object" __classname="TYPO3\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;originalImage&quot;:{&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;000-48-\u0441 \u0443\u043b\u044b\u0431\u043e\u0447\u043a\u043e\u0439.jpg&quot;,&quot;hash&quot;:&quot;3c8e515ba06a44dc02c473ca7d3a9018e973458d&quot;,&quot;__identity&quot;:&quot;311d0431-964d-1eca-1448-73e61f042e7d&quot;},&quot;__identity&quot;:&quot;c69b59c5-e418-ac79-e9d9-6ad5f1e8325b&quot;},&quot;processingInstructions&quot;:[{&quot;command&quot;:&quot;crop&quot;,&quot;options&quot;:{&quot;start&quot;:{&quot;x&quot;:1099.008,&quot;y&quot;:51.891891891892},&quot;size&quot;:{&quot;width&quot;:3058.56,&quot;height&quot;:3217.2972972973}}},{&quot;command&quot;:&quot;resize&quot;,&quot;options&quot;:{&quot;size&quot;:{&quot;width&quot;:3022,&quot;height&quot;:3175}}}]}</image>
+         <alternativeText __type="string"></alternativeText>
+         <title __type="string"></title>
+         <link __type="string"></link>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="8b5ad5cf-7af5-aba9-fe26-93be2e354f65" nodeName="anna-sedova">
+      <variant sortingIndex="138" workspace="live" nodeType="Sfi.Erm:Doctor" version="12" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <description __type="string">&lt;p&gt;Стоматолог-терапевт&lt;/p&gt;</description>
+        <title __type="string">Анна Седова (Голубкова)</title>
+        <layout __type="string"></layout>
+        <subpageLayout __type="string"></subpageLayout>
+        <credo __type="string">У меня индивидуальный подход к каждому пациенту, я выбираю наилучшее лечение для каждого конкретного человека и зуба! Когда лечишь полость рта — лечишь весь организм. Я стараюсь работать так,чтобы пациент уходил не только со здоровой полостью рта, но и с легким сердцем и солнечным настроением!</credo>
+       </properties>
+      </variant>
+      <node identifier="1fbe6cb9-1e7f-e40d-1d4b-21dcdb91e4a3" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="5" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+       <node identifier="6e2937b3-ce34-437c-e83b-912231057b93" nodeName="node-5450e88f3ef40">
+        <variant sortingIndex="350" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="46" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <properties>
+          <text __type="string">&lt;ul&gt;&lt;li&gt;2001-2006 — Обучение в Тверской государственной медицинской академии.&lt;br/&gt;Тяжело в учении-легко в бою.Я очень благодарна всем замечательным преподавателям нашей ТГМА,что научили как надо работать,исполнять свой долг врача!&lt;br/&gt;С 2004 по 2007 — Работала ассистентом врача стоматолога терапевта и не только в клинике &quot;Дента Имидж Тверь&quot;.&lt;br/&gt;Огромное спасибо Кондратьевой Татьяне Юрьевне,одному из лучших стоматологов терапевтов города Твери за то,что научила как получить самый лучший результат с использованием последних разработок в стоматологии. Научилась как правильно &quot;использовать&quot; свои руки.&lt;br/&gt;2011 — &quot;Эстетические основы формообразования.Цветоведение в стоматологии&quot;&lt;br/&gt;Студия Эстетической Стоматологии Антона Ветчинкина&lt;br/&gt;2009 — &quot;Эстетика фронтальных реставраций&quot;, Е. Мендоса PROTECO &lt;br/&gt;2009 — &quot;Современные подходы к лечению кариеса.Адгезивная техника&quot;, Е. Мендоса PROTECO&lt;br/&gt;2009 — &quot;Ошибки и осложнения эндодонтического лечения,пути их устранения от А до Я&quot;,Н.И. Бусарова Факультет инновационной стоматологии&lt;br/&gt;2009 — &quot;Современные технологии в эндодонтическом лечении.Никель-титановые технологии.Мастеркласс по работе с машинными инструментами ProTaper,Mtwo и др.&quot; ЦНИИС&lt;br/&gt;2007 — Международная конференция по терапевтической стоматологии 3M ESPE&lt;br/&gt;2003 — «Эффективная эндодонтия» Е. Иоффе; «Успешное лечение корневых каналов» Е. Иоффе; «Техника прямого восстановления зубов современными композитными материалами» Е. Иоффе AMERICAN DENTAL ACADEMY&lt;br/&gt;2012 — Повышение квалификации по специальности &quot;стоматология терапевтическая&quot; на факультете повышения квалификации медицинских работников Российского университета дружбы народов.&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</text>
+         </properties>
+        </variant>
+       </node>
+      </node>
+      <node identifier="c179424f-da45-c29b-1b92-4472210fa773" nodeName="picture">
+       <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Image" version="13" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <caption __type="string">&lt;p&gt;Enter caption here&lt;/p&gt;</caption>
+         <alignment __type="string"></alignment>
+         <image __type="object" __classname="TYPO3\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;originalImage&quot;:{&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;anna.jpg&quot;,&quot;hash&quot;:&quot;1124bc8d68bf0d381a7de59dbb0ac67dbdcaa70c&quot;,&quot;__identity&quot;:&quot;4e4ff596-ea8b-b2be-8e42-5a18cb723fc1&quot;},&quot;__identity&quot;:&quot;f181ac93-bb42-855b-53b6-840d1ce79be2&quot;},&quot;processingInstructions&quot;:[{&quot;command&quot;:&quot;crop&quot;,&quot;options&quot;:{&quot;start&quot;:{&quot;x&quot;:349.58035714286,&quot;y&quot;:394.8},&quot;size&quot;:{&quot;width&quot;:1573.1116071429,&quot;height&quot;:1579.2}}},{&quot;command&quot;:&quot;resize&quot;,&quot;options&quot;:{&quot;size&quot;:{&quot;width&quot;:1571,&quot;height&quot;:1576}}}]}</image>
+         <alternativeText __type="string"></alternativeText>
+         <title __type="string"></title>
+         <link __type="string"></link>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="f3b879b6-c230-7429-e993-289a368fc3e6" nodeName="oleg-ermolaev">
+      <variant sortingIndex="100" workspace="live" nodeType="Sfi.Erm:Doctor" version="8" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <description __type="string">&lt;p&gt;Cтоматолог-ортопед, кандидат медицинских наук&lt;br/&gt;&lt;/p&gt;</description>
+        <title __type="string">Олег Ермолаев</title>
+        <layout __type="string"></layout>
+        <subpageLayout __type="string"></subpageLayout>
+        <credo __type="string">Выполняя работу, я стараюсь помочь каждому человеку, который ко мне обращается. Самая большая радость, когда я вижу после лечения красивую и радостную улыбку пациента</credo>
+       </properties>
+      </variant>
+      <node identifier="4139671e-bd5d-518b-3560-18735c6c38e8" nodeName="content">
+       <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="a7cd1b63-3397-c3f6-6349-a2b32ae54db8" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+       <node identifier="af8d7be8-6add-2881-cac7-0df3f50f6f35" nodeName="node-5450d2f9a3e83">
+        <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="9" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <properties>
+          <text __type="string">&lt;p&gt;Олег Алексеевич главным в работе считает высокий
+профессионализм врача и большой клинический опыт. Постоянное повышение
+уровня квалификации. Работа в команде врачей разных специальностей. Важно довести
+до конца начатое дело. Уважение к пациенту. Качественное протезирование
+позволяет решить несколько задач: восстановление функции жевания, речи,
+внешнего облика пациента. Много внимания уделяется эстетике и функции
+протезов, которые восстанавливают гармонию лица. Так протезирование помогает
+добиваться максимального медицинского и эститеческого результата.
+Большую роль играет и взаимопонимание, доверительное отношение между врачом и
+пациентом. Мастерство: микропротезирование (керамические вкладки,
+виниры); протезирование на имплантатах (BioHorizons, Straumann).
+Уникальная методика протезирования при одиночно стоящих зубах (тема кандидатской
+диссертации). &lt;/p&gt;</text>
+         </properties>
+        </variant>
+       </node>
+      </node>
+      <node identifier="97d3027b-8016-98a3-cccf-066cc3a273e7" nodeName="picture">
+       <variant sortingIndex="300" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Image" version="8" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <caption __type="string">&lt;p&gt;Enter caption here&lt;/p&gt;</caption>
+         <alignment __type="string"></alignment>
+         <image __type="object" __classname="TYPO3\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;originalImage&quot;:{&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;000-62.jpg&quot;,&quot;hash&quot;:&quot;4f6cf30257ec9232f9f48ef818d1d8d4fdd38683&quot;,&quot;__identity&quot;:&quot;e3256ec4-1c22-3656-a668-a4eb6ea8511f&quot;},&quot;__identity&quot;:&quot;aec711bf-a309-4445-653f-b7b0cc28ed3d&quot;},&quot;processingInstructions&quot;:[{&quot;command&quot;:&quot;crop&quot;,&quot;options&quot;:{&quot;start&quot;:{&quot;x&quot;:1596.672,&quot;y&quot;:207.56756756757},&quot;size&quot;:{&quot;width&quot;:1689.984,&quot;height&quot;:1702.0540540541}}},{&quot;command&quot;:&quot;resize&quot;,&quot;options&quot;:{&quot;size&quot;:{&quot;width&quot;:359,&quot;height&quot;:361}}}]}</image>
+         <alternativeText __type="string"></alternativeText>
+         <title __type="string"></title>
+         <link __type="string"></link>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="2bdacc34-08cf-4eaa-9c44-969617a3d7d5" nodeName="olesya-yakunceva">
+      <variant sortingIndex="263" workspace="live" nodeType="Sfi.Erm:Doctor" version="6" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <description __type="string">&lt;p&gt;Стоматолог-терапевт&lt;/p&gt;</description>
+        <title __type="string">Олеся Якунцева</title>
+        <layout __type="string"></layout>
+        <subpageLayout __type="string"></subpageLayout>
+        <credo __type="string">Я всегда ищу возможность помочь человеку любого возраста и в любом случае, какой бы сложной ни была его стоматологическая проблема.</credo>
+       </properties>
+      </variant>
+      <node identifier="3d4cf0d9-cba7-1a80-ecb5-221c43acd85f" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+       <node identifier="cd798a9e-7fbc-6a4d-1d6f-e1e37de05a38" nodeName="node-54576de9a8e53">
+        <variant sortingIndex="150" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="8" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <properties>
+          <text __type="string">&lt;p&gt;Олеся Геннадьевна владеет основными современными
+технологиями с нанокомпозитами последнего поколения: Tetrik, Estet-X, Filtek
+Ultimate, Enamel, Empress и др. при эстетической реставрации зубов, в том числе
+«Винирами». Коррекция формы, цвета, положения зуба. Методиками
+микропротезирования восстановления зубов с использованием стекловолоконных
+штифтов. При эндодонтическом лечении применяет аппараты Apex Locator Denta port ZX, Piezon Master эндодонтический
+мотор X-Smart. Для подготовки
+корневых каналов и создания конусности использует Ni-Ti системы Protaper с
+последующей обтурацией каналов методами латеральной и вертикальной конденсации,
+термопластифицированной гуттаперчей на аппарате BeeFill. Владеет методикой
+инжекторной обтурации. Проводит повторное эндодонтическое лечение зубов в
+сложных клинических случаях используя дентальный микроскоп. Владеет методикой
+работы на аппарате Vector при лечении заболеваний пародонта. Использует в
+клинической практике профессиональную чистку зубов с помощью ультразвука и Air
+Flow. Отбеливание зубов системой Zoom. Постоянно повышает свой профессиональный
+уровень. Стаж врачебной работы – 16 лет. Является участником ежегодных эндодонтических конгрессов VDW. Является членом эндодонтической секции СТаР. &lt;/p&gt;</text>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="dcbbff12-9117-c8ec-70ec-9de2234dc674" nodeName="node-54576ffa1cfb7">
+        <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="17" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <properties>
+          <text __type="string">&lt;h2&gt;Образование&lt;/h2&gt;&lt;p&gt;
+
+&lt;/p&gt;&lt;p&gt;В 1998 окончила Московский медицинский стоматологический
+институт по специальности «стоматология»&lt;/p&gt;&lt;p&gt;
+
+&lt;/p&gt;&lt;p&gt;В 2000 окончила клиническую ординатуру по терапевтической
+стоматологии на кафедре МГМСУ&lt;/p&gt;&lt;p&gt;
+
+&lt;/p&gt;&lt;p&gt;С 2013 года проходит обучение в аспирантуре ФГБУ
+«Учебно-научный медицинский центр» УД Президента РФ. &lt;/p&gt;&lt;p&gt;В 2007 закончила повышение квалификации на базе МГМСУ по
+программе «Патология пародонта и слизистой оболочки полости рта»&lt;/p&gt;&lt;h3&gt;Обучалась на специализированных практических курсах и имеет
+сертификаты&lt;/h3&gt;&lt;p&gt;
+
+&lt;/p&gt;&lt;p&gt;2003 — 2-х недельный курс на обучения на базе МГМСУ:
+«Обезболивание в амбулаторной стоматологической практике, неотложная помощь в
+стоматологии».&lt;/p&gt;&lt;p&gt;
+
+&lt;/p&gt;&lt;p&gt;2004 — «Новые решения в диагностике, профилактике и
+лечении детей и взрослых»&lt;/p&gt;&lt;p&gt;
+
+&lt;/p&gt;&lt;p&gt;2005 — «Простые клинические решения в комплексной
+эстетической реабилитации зубов».&lt;/p&gt;&lt;p&gt;
+
+&lt;/p&gt;&lt;p&gt;2007 — «Эстетическое микропротезирование от А до Я»&lt;/p&gt;&lt;p&gt;
+
+&lt;/p&gt;&lt;p&gt;2010 — «Прямая эстетическая реставрация: современные
+аспекты, новые возможности, а также проблемы и их решения».&lt;/p&gt;&lt;p&gt;
+
+&lt;/p&gt;&lt;p&gt;2010 — « Эндодонтия от А до Я».&lt;/p&gt;&lt;p&gt;
+
+&lt;/p&gt;&lt;p&gt;2012 — «Стоматологическое увеличение в сложных
+клинических случаях в качестве ключа для успешного эндодонтического лечения.
+Обучение на дентальном микроскопе».&lt;/p&gt;&lt;p&gt;
+
+&lt;/p&gt;&lt;p&gt;2012 — «Прямые эстетические реставрации.
+Распространенные ошибки и их профилактика». &lt;/p&gt;&lt;p&gt;
+
+&lt;/p&gt;&lt;p&gt;2012 — «Клиническое применение и принципы использования
+методики «Вектор» в лечении заболеваний пародонта».&lt;/p&gt;&lt;p&gt;
+
+&lt;/p&gt;&lt;p&gt;2012 — « Эффективное и безопасное проведение
+клинической процедуры отбеливания ZOOM».&lt;/p&gt;&lt;p&gt;
+
+&lt;/p&gt;&lt;p&gt;2012 — Закончила повышение квалификации на базе ФГБУ
+«Учебно-методического центра» УД Президента РФ.&lt;/p&gt;&lt;p&gt;
+
+&lt;/p&gt;&lt;p&gt;2013 — Малоинвазивная эстетическая реабилитация зубов.
+Восстановление фронтальных зубов».&lt;/p&gt;&lt;p&gt;
+
+&lt;/p&gt;&lt;p&gt;2013 — «Прикладная эндодонтия. Практические подходы к
+решению ежедневных задач. Часть 1. Алгоритм обработки системы корневого канала.
+Обучение на дентальном микроскопе».&lt;/p&gt;&lt;p&gt;
+
+&lt;/p&gt;&lt;p&gt;2013 — «Прикладная эндодонтия. Практические подходы к
+решению ежедневных задач. Часть 2. Обтурация системы корневых каналов. Обучение
+на дентальном микроскопе».&lt;/p&gt;&lt;p&gt;
+
+&lt;/p&gt;&lt;p&gt;2013 — «Прикладная эндодонтия. Практические подходы к
+решению ежедневных задач. Часть 3. Ревизия корневых каналов, сломанный
+инструментарий. Обучение на детальном микроскопе».&lt;/p&gt;</text>
+         </properties>
+        </variant>
+       </node>
+      </node>
+      <node identifier="85194a8e-05c0-8b53-ef97-e1661d4eb3d6" nodeName="picture">
+       <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Image" version="10" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <caption __type="string">&lt;p&gt;Enter caption here&lt;/p&gt;</caption>
+         <alignment __type="string"></alignment>
+         <image __type="object" __classname="TYPO3\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;originalImage&quot;:{&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;olesia-1766a.jpg&quot;,&quot;hash&quot;:&quot;851f03cf6ca991d089f01b377e74f31a1d0fd5ed&quot;,&quot;__identity&quot;:&quot;9c2624dc-601b-d0fe-916a-b1e4b1150604&quot;},&quot;__identity&quot;:&quot;a15ef16e-6290-6ce3-eff1-8be88ef8ca14&quot;},&quot;processingInstructions&quot;:[{&quot;command&quot;:&quot;crop&quot;,&quot;options&quot;:{&quot;start&quot;:{&quot;x&quot;:753.96,&quot;y&quot;:51.290322580645},&quot;size&quot;:{&quot;width&quot;:1998.36,&quot;height&quot;:2000.3225806452}}},{&quot;command&quot;:&quot;resize&quot;,&quot;options&quot;:{&quot;size&quot;:{&quot;width&quot;:1996,&quot;height&quot;:1996}}}]}</image>
+         <alternativeText __type="string"></alternativeText>
+         <title __type="string"></title>
+         <link __type="string"></link>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="68ac797f-d07a-5a7c-e9ab-97aab0f23ad9" nodeName="sergej-matiks">
+      <variant sortingIndex="119" workspace="live" nodeType="Sfi.Erm:Doctor" version="9" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <description __type="string">&lt;p&gt;Имплантонолог, профессор ортопедии&lt;/p&gt;</description>
+        <title __type="string">Сергей Матикс</title>
+        <layout __type="string"></layout>
+        <subpageLayout __type="string"></subpageLayout>
+        <credo __type="string">Мелочи определяют Совершенство, однако Совершенство – это вовсе не Мелочь». Генри Ройс (сооснователь Rolls-Royce), согласно этому высказыванию, работаем мои коллеги и я с целью оптимально восполнить пожелания наших пациентов. Постоянное самосовершеннствование и интеграция современных, но проверенных методик, являются неотъемленной частью нашей практической деятельности. Лишь непрерывное саморазвитие позволяет не только закрепить, но и улучшить уровень качества наших услуг. Комфорт как во время, так и после лечения является вторым ключевым моментом, который так ценят наши пациенты. Ведь в центре внимания стоит наш пациент, как человек. Моя жизненная позиция, помимо чисто профессиональной стороны, заключается в простом правиле: «обходись с другими так, как хочешь, чтобы с тобой обходились другие.</credo>
+       </properties>
+      </variant>
+      <node identifier="128594a9-877f-900e-f91c-3fcf06c5f9a4" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+       <node identifier="78baa0e6-433a-913c-5dc7-d40e2c9af041" nodeName="node-5450ebd6d5acb">
+        <variant sortingIndex="150" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="6" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <properties>
+          <text __type="string">&lt;p&gt;1999 - 2004 Тверская Государственная Медицинская Академия (диплом с отличием)&lt;br/&gt;2004 -2005 Клиническая интернатура Участник программы «Российские интеллектуальные рессурсы» Тверская Государственная Медицинская Академия, факультет усовершенствования подготовки&lt;br/&gt;2005 - 2009 Практическая деятельность в г. Москва&lt;br/&gt;2009 - 2012 Johann Wolfgang Goethe Universität Frankfurt am Main&lt;br/&gt;с 2013 Практическая деятельность в г. Франкфурт-на-Майне&lt;br/&gt;с 2010 Членство в Немецком Обществе Имплантологии&lt;br/&gt;c 2010 Членство в Немецком Обществе Стоматологии&lt;br/&gt;c 2013 Curriculum Implantologie DGI Deutsche Gesellschaft für Implantologie (DGI) - крупнейшее в Европе профессиональное обещество практикующих имплантологов Deutsche Gesellschaft für Zahn-, Mund- und Kieferheilkunde (DGZMK) Структурированное повышение квалификации по имплантологии в сотрудничестве с Академией Практика и Наука (Akademie Praxis und Wissenschaft APW)&lt;br/&gt;В настоящий момент проводится клиническое исследование в рамках диссертационной работы под руководством Ханса-Кристофа Лауэра (Univ.-Prof. Dr. Hans-Christoph Lauer), профессора кафедры ортопедии Университета Йоганна Вольфганга Гёте, Франкфурт-на-Майне.&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;</text>
+         </properties>
+        </variant>
+       </node>
+      </node>
+      <node identifier="ba236340-334e-94e4-9745-44497c0ed573" nodeName="picture">
+       <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Image" version="11" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <caption __type="string">&lt;p&gt;Enter caption here&lt;/p&gt;</caption>
+         <alignment __type="string"></alignment>
+         <image __type="object" __classname="TYPO3\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;originalImage&quot;:{&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;00009.jpg&quot;,&quot;hash&quot;:&quot;8da970322687b345d50d774a3996fb8c1dbce61e&quot;,&quot;__identity&quot;:&quot;3bbbcab3-40c6-7241-0272-86ccb502e969&quot;},&quot;__identity&quot;:&quot;5aa9211f-1275-c641-8baf-318436a86c9c&quot;},&quot;processingInstructions&quot;:[{&quot;command&quot;:&quot;crop&quot;,&quot;options&quot;:{&quot;start&quot;:{&quot;x&quot;:200.928,&quot;y&quot;:10.754716981132},&quot;size&quot;:{&quot;width&quot;:1036.932,&quot;height&quot;:1036.0377358491}}},{&quot;command&quot;:&quot;resize&quot;,&quot;options&quot;:{&quot;size&quot;:{&quot;width&quot;:1025,&quot;height&quot;:1025}}}]}</image>
+         <alternativeText __type="string"></alternativeText>
+         <title __type="string"></title>
+         <link __type="string"></link>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="4342b006-88d9-92fb-537d-08e5cda946d4" nodeName="tatiana-palastchenko">
+      <variant sortingIndex="238" workspace="live" nodeType="Sfi.Erm:Doctor" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <description __type="string">&lt;p&gt;Стоматолог-терапевт&lt;/p&gt;</description>
+        <title __type="string">Татьяна Палащенко</title>
+        <layout __type="string"></layout>
+        <subpageLayout __type="string"></subpageLayout>
+       </properties>
+      </variant>
+      <node identifier="c0c5f76f-efff-75eb-a840-ed568c00e6fd" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+       <node identifier="0c68c04e-add2-2f95-aae6-e10865840fa5" nodeName="node-5450edb7c9895">
+        <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="6" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <properties>
+          <text __type="string">&lt;p&gt;Для эффективного лечения кариеса доктор использует самые современные
+достижения стоматологии и новейшие методики реставрации зубов. Татьяна
+Всеволодовна бережно и внимательно относится к своим пациентам, которые лечатся
+у нее нее целыми семьями и высоко ценят ее профессиональное мастерство.&lt;/p&gt;</text>
+         </properties>
+        </variant>
+       </node>
+      </node>
+      <node identifier="a155ad0e-149c-1b0f-16e4-ed7190578182" nodeName="picture">
+       <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Image" version="12" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <caption __type="string">&lt;p&gt;Enter caption here&lt;/p&gt;</caption>
+         <alignment __type="string"></alignment>
+         <image __type="object" __classname="TYPO3\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;originalImage&quot;:{&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;tatiana.jpg&quot;,&quot;hash&quot;:&quot;006607166d34f20a5f2808932c5c47da5876ca7b&quot;,&quot;__identity&quot;:&quot;af79a733-b973-fccf-88e8-0a84dd43e7d5&quot;},&quot;__identity&quot;:&quot;e6084b5e-5362-caa7-fb56-c78ecc83d8d7&quot;},&quot;processingInstructions&quot;:[{&quot;command&quot;:&quot;crop&quot;,&quot;options&quot;:{&quot;start&quot;:{&quot;x&quot;:435.89189189189,&quot;y&quot;:0},&quot;size&quot;:{&quot;width&quot;:3020.1081081081,&quot;height&quot;:3027.456}}},{&quot;command&quot;:&quot;resize&quot;,&quot;options&quot;:{&quot;size&quot;:{&quot;width&quot;:3015,&quot;height&quot;:3025}}}]}</image>
+         <alternativeText __type="string"></alternativeText>
+         <title __type="string"></title>
+         <link __type="string"></link>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="f5ff878e-d365-cbaa-d3bf-53a4169f2061" nodeName="footer">
+     <variant sortingIndex="800" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Html" version="10" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <properties>
+       <source __type="string">&lt;div id=&quot;directions&quot;&gt;
+  &lt;p&gt;+7 495 749 01 40&lt;br&gt;
+	Москва 123100&lt;br&gt;
+	ул. Рочдельская 11/5&lt;br&gt;
+	вход с Глубокого пер.
+  &lt;/p&gt;
+  &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+  &lt;p&gt;Время работы:&lt;br&gt;
+	10:00–21:00 (пн-пт)&lt;br&gt;
+	10:00–18:00 (сб)&lt;br&gt;
+  &lt;/p&gt;
+&lt;/div&gt;</source>
+      </properties>
+     </variant>
+    </node>
+    <node identifier="00b8b2de-c425-32c3-b109-f7c253aa8d57" nodeName="header">
+     <variant sortingIndex="700" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Html" version="26" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <properties>
+       <source __type="string">&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		ул. Рочдельская 11/5&lt;br&gt;
+		&lt;a class=&quot;ButtonInline&quot; href=&quot;#directions&quot;&gt;как добраться&lt;/a&gt;&lt;br&gt;
+	  &lt;p class=&quot;ServiceLarge&quot;&gt;&lt;a href=&quot;tel:+74957490140&quot;&gt;+7 495 749-0140&lt;/a&gt;&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;medium-6 columns&quot;&gt;
+		10:00–21:00 (пн-пт)&lt;br&gt;
+		10:00–18:00 (сб)&lt;br&gt;
+		&lt;a class=&quot;Button--LightSmall&quot; href=&quot;/visit.html&quot;&gt;записаться на приём&lt;/a&gt; 
+	&lt;/div&gt;
+&lt;/div&gt;</source>
+      </properties>
+     </variant>
+    </node>
+    <node identifier="8f4b2257-b1b5-1659-aebd-7024bfc178ae" nodeName="introPicture">
+     <variant sortingIndex="900" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Image" version="6" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <properties>
+       <caption __type="string">&lt;p&gt;Enter caption here&lt;/p&gt;</caption>
+       <alignment __type="string"></alignment>
+       <image __type="object" __classname="TYPO3\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;originalImage&quot;:{&quot;title&quot;:&quot;Oleg-001.jpg&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Oleg-001.jpg&quot;,&quot;hash&quot;:&quot;8000f6f88f04841b9ce35c6ed78be494c000c6ce&quot;,&quot;__identity&quot;:&quot;6f645432-13a5-8635-7efc-49245b0b6179&quot;},&quot;__identity&quot;:&quot;14419cfd-705e-a9c7-3319-d2ff65a6cc0b&quot;},&quot;processingInstructions&quot;:[{&quot;command&quot;:&quot;crop&quot;,&quot;options&quot;:{&quot;start&quot;:{&quot;x&quot;:578.88,&quot;y&quot;:0},&quot;size&quot;:{&quot;width&quot;:4605.12,&quot;height&quot;:3453.84}}},{&quot;command&quot;:&quot;resize&quot;,&quot;options&quot;:{&quot;size&quot;:{&quot;width&quot;:&quot;600&quot;,&quot;height&quot;:450}}}]}</image>
+       <alternativeText __type="string">Врач-ортопед Олег Ермолаев</alternativeText>
+       <title __type="string"></title>
+       <link __type="string"></link>
+      </properties>
+     </variant>
+    </node>
+    <node identifier="43e4c4bd-3cd1-3b43-79c5-97458308f096" nodeName="introText">
+     <variant sortingIndex="1000" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="14" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <properties>
+       <text __type="string">&lt;p&gt;&lt;i&gt;&lt;b&gt;Все специалисты нашей клиники&lt;/b&gt; давно знакомы и много лет сотрудничают друг с другом, некоторые из наших врачей — мои студенты. Мы давно мечтали создать клинику, в которой можно будет реализовывать свои профессиональные качества и быть уверенными, что каждому пациенту окажут столько внимания, сколько нужно, чтобы предоставить ему всю необходимую помощь.&lt;/i&gt;&lt;/p&gt;&lt;h3&gt;&lt;a href=&quot;node://f3b879b6-c230-7429-e993-289a368fc3e6&quot; data-gentics-aloha-repository=&quot;node-repository&quot; data-gentics-aloha-object-id=&quot;f3b879b6-c230-7429-e993-289a368fc3e6&quot;&gt;Олег Ермолаев&lt;/a&gt;, главный врач клиники&lt;/h3&gt;</text>
+      </properties>
+     </variant>
+    </node>
+    <node identifier="4d71c561-aaf2-fe02-51b2-b538dd11c833" nodeName="main">
+     <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <properties/>
+     </variant>
+     <node identifier="05bbdc99-e8b0-7e63-8f35-7a4546da9d01" nodeName="node-54364ec2af2aa">
+      <variant sortingIndex="100" workspace="live" nodeType="Sfi.Grid:Row" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties/>
+      </variant>
+      <node identifier="eb8bc31d-c1cb-5b8e-3421-58b78e31fbf8" nodeName="column0">
+       <variant sortingIndex="100" workspace="live" nodeType="Sfi.Grid:Column" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <large __type="string"></large>
+         <medium __type="string"></medium>
+         <small __type="string"></small>
+         <largeOffset __type="string"></largeOffset>
+         <mediumOffset __type="string"></mediumOffset>
+         <smallOffset __type="string"></smallOffset>
+        </properties>
+       </variant>
+       <node identifier="a4d0da82-5f19-5183-b85c-9aa5a34138db" nodeName="node-544e6d48b94a0">
+        <variant sortingIndex="250" workspace="live" nodeType="Sfi.Widgets:Sections" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <properties>
+          <layout __type="string">Sections--Tabs</layout>
+         </properties>
+        </variant>
+        <node identifier="091c13b8-640a-4146-0145-457d4af37dbb" nodeName="node-544e6d5bc9018">
+         <variant sortingIndex="100" workspace="live" nodeType="Sfi.Widgets:Section" version="7" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <properties>
+           <title __type="string">Наши врачи</title>
+          </properties>
+         </variant>
+         <node identifier="cc90ab7e-4932-b6d2-9a2e-95687b9d22da" nodeName="node-5450d293ef5e5">
+          <variant sortingIndex="100" workspace="live" nodeType="Sfi.Erm:DoctorsList" version="3" removed="" hidden="" hiddenInIndex="">
+           <dimensions/>
+           <accessRoles __type="array"/>
+           <properties/>
+          </variant>
+         </node>
+        </node>
+        <node identifier="c9dfea3e-635e-a258-dc99-936d40d68f72" nodeName="node-544e6d6eb213d">
+         <variant sortingIndex="200" workspace="live" nodeType="Sfi.Widgets:Section" version="6" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <properties>
+           <title __type="string">О клинике</title>
+          </properties>
+         </variant>
+         <node identifier="1d64191f-541f-aa63-f452-c9531cf882f9" nodeName="node-5451ce12c22f3">
+          <variant sortingIndex="100" workspace="live" nodeType="Sfi.Grid:Row" version="3" removed="" hidden="" hiddenInIndex="">
+           <dimensions/>
+           <accessRoles __type="array"/>
+           <properties/>
+          </variant>
+          <node identifier="d110c29e-ddce-4b5e-e611-966de0364833" nodeName="node-5451ce3633f8d">
+           <variant sortingIndex="50" workspace="live" nodeType="Sfi.Grid:Column" version="8" removed="" hidden="" hiddenInIndex="">
+            <dimensions/>
+            <accessRoles __type="array"/>
+            <properties>
+             <large __type="string">large-8</large>
+             <medium __type="string">medium-8</medium>
+             <small __type="string"></small>
+             <largeOffset __type="string">large-offset-2</largeOffset>
+             <mediumOffset __type="string">medium-offset-2</mediumOffset>
+             <smallOffset __type="string"></smallOffset>
+            </properties>
+           </variant>
+           <node identifier="f71704e0-cbf6-c5cf-17b6-236c4125db27" nodeName="node-5451cf3b58e52">
+            <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="12" removed="" hidden="" hiddenInIndex="">
+             <dimensions/>
+             <accessRoles __type="array"/>
+             <properties>
+              <text __type="string">В нашей клинике трудится слаженная команда высококвалифицированных специалистов, каждый из которых обладает большим опытом и уникальными методами работы в своей области. Мы предлагаем широкий спектр услуг и консультации, чтобы все наши пациенты нашли необходимую им помощь и рекомендации. &lt;br/&gt;&lt;br/&gt;Клиника расположена в центре города, в пешей доступности от метро Краснопресненская. Мы создали для наших врачей и пациентов домашнюю атмосферу, чтобы трудиться и лечиться здесь было приятно и легко. Простота обстановки в нашей клинике позволяет нам при использовании лучших материалов и высококлассной техники держать цены в среднем диапазоне, чтобы наши услуги были доступны каждому.&lt;br/&gt;</text>
+             </properties>
+            </variant>
+           </node>
+           <node identifier="d6c368fa-fc2e-f565-e6d2-e3648b5aed49" nodeName="node-545769a6032da">
+            <variant sortingIndex="200" workspace="live" nodeType="Sfi.Widgets:Link" version="8" removed="" hidden="" hiddenInIndex="">
+             <dimensions/>
+             <accessRoles __type="array"/>
+             <properties>
+              <variant __type="string">Link-Button</variant>
+              <text __type="string">Подробнее о клинике</text>
+              <target __type="string">node://b9fb6c99-90b7-a5df-3b63-b4f69abe3d2e</target>
+             </properties>
+            </variant>
+           </node>
+           <node identifier="ead87cfd-0c13-c38b-6148-77d025682880" nodeName="node-5457d7842e405">
+            <variant sortingIndex="300" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Records" version="5" removed="" hidden="" hiddenInIndex="">
+             <dimensions/>
+             <accessRoles __type="array"/>
+             <properties>
+              <records __type="array">
+               <entry0 __type="string">8b52e1dd-b4a8-a8b3-2a4a-b446ea0514cc</entry0>
+              </records>
+             </properties>
+            </variant>
+           </node>
+          </node>
+         </node>
+        </node>
+        <node identifier="d0d128da-b6f4-eac5-6a41-09c7e2c2bf42" nodeName="node-544e6daa7f405">
+         <variant sortingIndex="250" workspace="live" nodeType="Sfi.Widgets:Section" version="6" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <properties>
+           <title __type="string">Услуги</title>
+          </properties>
+         </variant>
+         <node identifier="87ff5eb0-3046-7680-7785-1b879263c408" nodeName="node-544e70ba60104">
+          <variant sortingIndex="325" workspace="live" nodeType="Sfi.Erm:PriceList" version="5" removed="" hidden="" hiddenInIndex="">
+           <dimensions/>
+           <accessRoles __type="array"/>
+           <properties/>
+          </variant>
+         </node>
+        </node>
+        <node identifier="7a393f70-0515-af84-d52a-4f6628e96855" nodeName="node-544e6df67a82e">
+         <variant sortingIndex="300" workspace="live" nodeType="Sfi.Widgets:Section" version="6" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <properties>
+           <title __type="string">Отзывы</title>
+          </properties>
+         </variant>
+         <node identifier="67c31e1f-bc39-9ae8-4ce1-27c01e43cb23" nodeName="node-5457677397c11">
+          <variant sortingIndex="50" workspace="live" nodeType="Sfi.Grid:Row" version="4" removed="" hidden="" hiddenInIndex="">
+           <dimensions/>
+           <accessRoles __type="array"/>
+           <properties/>
+          </variant>
+          <node identifier="70227b3f-3b7d-d394-a04b-ee1c8deec7e4" nodeName="node-545767900e3db">
+           <variant sortingIndex="100" workspace="live" nodeType="Sfi.Grid:Column" version="5" removed="" hidden="" hiddenInIndex="">
+            <dimensions/>
+            <accessRoles __type="array"/>
+            <properties>
+             <large __type="string">large-8</large>
+             <medium __type="string">medium-10</medium>
+             <small __type="string"></small>
+             <largeOffset __type="string">large-offset-2</largeOffset>
+             <mediumOffset __type="string">medium-offset-1</mediumOffset>
+             <smallOffset __type="string"></smallOffset>
+            </properties>
+           </variant>
+           <node identifier="ff45f530-5a6b-bb58-6673-54d32c94c79c" nodeName="node-54513638edff4">
+            <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:Testimony" version="10" removed="" hidden="" hiddenInIndex="">
+             <dimensions/>
+             <accessRoles __type="array"/>
+             <properties>
+              <name __type="string">А. Федякова</name>
+              <text __type="string">&lt;p&gt;Благодарю Татьяну Всеволодовну за то чудо, которое она совершила своими руками и умением: из ничего сотворила замечательный зуб — &quot;шестерку&quot;.&lt;br/&gt;&lt;/p&gt;</text>
+             </properties>
+            </variant>
+           </node>
+           <node identifier="8b5e8a80-6142-0b27-52c8-8fce4919949e" nodeName="node-5452960544659">
+            <variant sortingIndex="300" workspace="live" nodeType="Sfi.Erm:Testimony" version="8" removed="" hidden="" hiddenInIndex="">
+             <dimensions/>
+             <accessRoles __type="array"/>
+             <properties>
+              <name __type="string">&lt;p&gt;Елена Подкопаева&lt;br/&gt;&lt;/p&gt;</name>
+              <text __type="string">&lt;p&gt;Большая благодарность Анне Александровне за волшебно и виртуозно проведенное лечение, за заботу, внимательность и тёплое обращение и великолепную консультацию для дальнейшего лечения.&lt;br/&gt;&lt;/p&gt;</text>
+             </properties>
+            </variant>
+           </node>
+           <node identifier="2e6b5e35-5137-a9a3-e46e-48ae2e6c1d78" nodeName="node-5454f12dbbb8f">
+            <variant sortingIndex="400" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Html" version="9" removed="" hidden="" hiddenInIndex="">
+             <dimensions/>
+             <accessRoles __type="array"/>
+             <properties>
+              <source __type="string">&lt;form action=&quot;https://docs.google.com/forms/d/1oF5_eq2dHP9wTgQO1MCoEn8OEsUQBnXTtv5Ilt6RoGo/formResponse?embedded=true&quot; method=&quot;POST&quot; id=&quot;ss-form&quot; target=&quot;_self&quot; onsubmit=&quot;&quot; class=&quot;paddingTop-double&quot;&gt;
+	&lt;div role=&quot;list&quot; class=&quot;ss-question-list&quot; style=&quot;padding-left: 0&quot;&gt;
+		&lt;div class=&quot;ss-form-question errorbox-good&quot; role=&quot;listitem&quot;&gt;
+			&lt;div dir=&quot;ltr&quot; class=&quot;ss-item ss-item-required ss-paragraph-text&quot;&gt;
+				&lt;div class=&quot;ss-form-entry&quot;&gt;
+					&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_1260819939&quot;&gt;
+						&lt;div class=&quot;ss-q-title&quot;&gt;Оставить отзыв
+					&lt;span class=&quot;ss-required-asterisk&quot;&gt;*&lt;/span&gt;&lt;/div&gt;
+					&lt;/label&gt;
+					&lt;textarea name=&quot;entry.1260819939&quot; rows=&quot;8&quot; cols=&quot;0&quot; class=&quot;ss-q-long&quot; id=&quot;entry_1260819939&quot; dir=&quot;auto&quot; aria-label=&quot;Оставить отзыв&quot; aria-required=&quot;true&quot; required=&quot;&quot;&gt;&lt;/textarea&gt;
+					&lt;div class=&quot;error-message&quot; id=&quot;191029890_errorMessage&quot;&gt;&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;ss-form-question errorbox-good&quot; role=&quot;listitem&quot;&gt;
+			&lt;div dir=&quot;ltr&quot; class=&quot;ss-item  ss-select&quot;&gt;
+				&lt;div class=&quot;ss-form-entry&quot;&gt;
+					&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_868013059&quot;&gt;
+						&lt;div class=&quot;ss-q-title&quot;&gt;Ваш лечащий врач&lt;/div&gt;
+
+					&lt;/label&gt;
+					&lt;select name=&quot;entry.868013059&quot; id=&quot;entry_868013059&quot; aria-label=&quot;Ваш лечащий врач  &quot;&gt;
+						&lt;option value=&quot;&quot;&gt;&lt;/option&gt;
+						&lt;option value=&quot;Олег Ермолаев&quot;&gt;Олег Ермолаев&lt;/option&gt;
+						&lt;option value=&quot;Сергей Матикс&quot;&gt;Сергей Матикс&lt;/option&gt;
+						&lt;option value=&quot;Анна Седова (Голубкова)&quot;&gt;Анна Седова (Голубкова)&lt;/option&gt;
+						&lt;option value=&quot;Татьяна Палащенко&quot;&gt;Татьяна Палащенко&lt;/option&gt;
+						&lt;option value=&quot;Олеся Якунцева&quot;&gt;Олеся Якунцева&lt;/option&gt;
+						&lt;option value=&quot;Андрей Степанов&quot;&gt;Андрей Степанов&lt;/option&gt;
+						&lt;option value=&quot;Ирина Бахныкина&quot;&gt;Ирина Бахныкина&lt;/option&gt;
+						&lt;option value=&quot;Ирина Теперина&quot;&gt;Ирина Теперина&lt;/option&gt;
+					&lt;/select&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;ss-form-question errorbox-good&quot; role=&quot;listitem&quot;&gt;
+			&lt;div dir=&quot;ltr&quot; class=&quot;ss-item ss-item-required ss-text&quot;&gt;
+				&lt;div class=&quot;ss-form-entry&quot;&gt;
+					&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_1731650863&quot;&gt;
+						&lt;div class=&quot;ss-q-title&quot;&gt;Ваше имя
+					&lt;span class=&quot;ss-required-asterisk&quot;&gt;*&lt;/span&gt;&lt;/div&gt;
+					&lt;/label&gt;
+					&lt;input type=&quot;text&quot; name=&quot;entry.1731650863&quot; value=&quot;&quot; class=&quot;ss-q-short required&quot; id=&quot;entry_1731650863&quot; dir=&quot;auto&quot; aria-label=&quot;Ваше имя  &quot; aria-required=&quot;true&quot; required=&quot;&quot; title=&quot;&quot;&gt;
+					&lt;div class=&quot;error-message&quot; id=&quot;428697495_errorMessage&quot;&gt;&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;input type=&quot;hidden&quot; name=&quot;draftResponse&quot; value=&quot;[,,&quot;4754446490897339171&quot;]
+			&quot;&gt;
+		&lt;input type=&quot;hidden&quot; name=&quot;pageHistory&quot; value=&quot;0&quot;&gt;
+		&lt;input type=&quot;hidden&quot; name=&quot;fbzx&quot; value=&quot;4754446490897339171&quot;&gt;
+		&lt;div class=&quot;ss-item ss-navigate&quot;&gt;
+			&lt;table id=&quot;navigation-table&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td class=&quot;ss-form-entry goog-inline-block&quot; id=&quot;navigation-buttons&quot; dir=&quot;ltr&quot;&gt;
+							&lt;input type=&quot;submit&quot; name=&quot;submit&quot; value=&quot;Отправить&quot; id=&quot;ss-submit&quot; class=&quot;jfk-button jfk-button-action &quot;&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/form&gt;</source>
+             </properties>
+            </variant>
+           </node>
+           <node identifier="566e805e-5738-02e5-39fc-889794cb5f11" nodeName="node-545786e639f8b">
+            <variant sortingIndex="350" workspace="live" nodeType="Sfi.Erm:Testimony" version="6" removed="" hidden="" hiddenInIndex="">
+             <dimensions/>
+             <accessRoles __type="array"/>
+             <properties>
+              <name __type="string">&lt;p&gt;Ольга Орлова&lt;br/&gt;&lt;/p&gt;</name>
+              <text __type="string">&lt;p&gt;Большая благодарность всем сотрудникам клиники и особенно Анне Александровне за чуткое внимание и профессионализм.&lt;br/&gt;&lt;/p&gt;</text>
+             </properties>
+            </variant>
+           </node>
+          </node>
+         </node>
+        </node>
+       </node>
+       <node identifier="d110c766-847f-d127-e1c2-109d6120dc0e" nodeName="node-54513bea489a9">
+        <variant sortingIndex="300" workspace="live" nodeType="Sfi.Widgets:Carousel" version="5" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <properties>
+          <responsive __type="string">2x</responsive>
+         </properties>
+        </variant>
+        <node identifier="dc33165b-7289-c22a-3f92-aef14e2f153c" nodeName="node-54513e46033dc">
+         <variant sortingIndex="150" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Image" version="6" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <properties>
+           <caption __type="string">&lt;p&gt;Enter caption here&lt;/p&gt;</caption>
+           <alignment __type="string"></alignment>
+           <image __type="object" __classname="TYPO3\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;originalImage&quot;:{&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;000-35.jpg&quot;,&quot;hash&quot;:&quot;6d75e4db3f27c9d7380212705bf00b346497879a&quot;,&quot;__identity&quot;:&quot;ff1f5b4c-b16a-4b71-85f9-4c3bba4bbb40&quot;},&quot;__identity&quot;:&quot;2ac983ea-3ee4-54da-240d-3deaaa0cf7f2&quot;},&quot;processingInstructions&quot;:[{&quot;command&quot;:&quot;crop&quot;,&quot;options&quot;:{&quot;start&quot;:{&quot;x&quot;:0,&quot;y&quot;:0},&quot;size&quot;:{&quot;width&quot;:4806,&quot;height&quot;:3144}}},{&quot;command&quot;:&quot;resize&quot;,&quot;options&quot;:{&quot;size&quot;:{&quot;width&quot;:4806,&quot;height&quot;:3143}}}]}</image>
+           <alternativeText __type="string"></alternativeText>
+           <title __type="string"></title>
+           <link __type="string"></link>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="8cc61e03-aaa9-6e49-76dc-1758dcd3d754" nodeName="node-54513e513abfb">
+         <variant sortingIndex="125" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Image" version="6" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <properties>
+           <caption __type="string">&lt;p&gt;Enter caption here&lt;/p&gt;</caption>
+           <alignment __type="string"></alignment>
+           <image __type="object" __classname="TYPO3\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;originalImage&quot;:{&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;000-39.jpg&quot;,&quot;hash&quot;:&quot;613fab702bcdb982cf0fa275a63d7f113dc18770&quot;,&quot;__identity&quot;:&quot;04035238-98be-3d49-7177-d8895bb56e1f&quot;},&quot;__identity&quot;:&quot;3568c954-9339-5767-3f8e-a5e60035ed96&quot;},&quot;processingInstructions&quot;:[{&quot;command&quot;:&quot;crop&quot;,&quot;options&quot;:{&quot;start&quot;:{&quot;x&quot;:0,&quot;y&quot;:0},&quot;size&quot;:{&quot;width&quot;:5184,&quot;height&quot;:3456}}},{&quot;command&quot;:&quot;resize&quot;,&quot;options&quot;:{&quot;size&quot;:{&quot;width&quot;:5184,&quot;height&quot;:3452}}}]}</image>
+           <alternativeText __type="string"></alternativeText>
+           <title __type="string"></title>
+           <link __type="string"></link>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="8ee7167e-80d0-ef92-4b8f-685a5e87f52a" nodeName="node-54513e5bc00b2">
+         <variant sortingIndex="113" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Image" version="8" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <properties>
+           <caption __type="string">&lt;p&gt;Enter caption here&lt;/p&gt;</caption>
+           <alignment __type="string"></alignment>
+           <image __type="object" __classname="TYPO3\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;originalImage&quot;:{&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;000-61.jpg&quot;,&quot;hash&quot;:&quot;0da4c2d13c5f754ce2b483ee532fb7b4770b8c17&quot;,&quot;__identity&quot;:&quot;2a3c90b0-29f6-eec1-a890-83b30248322d&quot;},&quot;__identity&quot;:&quot;d9569588-244c-a9fa-7e78-b6b67fd42eda&quot;},&quot;processingInstructions&quot;:[{&quot;command&quot;:&quot;crop&quot;,&quot;options&quot;:{&quot;start&quot;:{&quot;x&quot;:0,&quot;y&quot;:0},&quot;size&quot;:{&quot;width&quot;:5184,&quot;height&quot;:3456}}},{&quot;command&quot;:&quot;resize&quot;,&quot;options&quot;:{&quot;size&quot;:{&quot;width&quot;:5184,&quot;height&quot;:3452}}}]}</image>
+           <alternativeText __type="string"></alternativeText>
+           <title __type="string"></title>
+           <link __type="string"></link>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="77ca1eba-283c-9f8b-93bb-57ff87911392" nodeName="node-54538c4ceb7ea">
+         <variant sortingIndex="119" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Image" version="6" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <properties>
+           <caption __type="string">&lt;p&gt;Enter caption here&lt;/p&gt;</caption>
+           <alignment __type="string"></alignment>
+           <image __type="object" __classname="TYPO3\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;originalImage&quot;:{&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;000-51.jpg&quot;,&quot;hash&quot;:&quot;976e1e7e4b207e1282600b75a61f0535e0fda270&quot;,&quot;__identity&quot;:&quot;60b6b0cc-6b89-e88e-99ee-7dd96c3ced9f&quot;},&quot;__identity&quot;:&quot;bebf25e1-900b-c709-51d1-5b4937f6b781&quot;},&quot;processingInstructions&quot;:[{&quot;command&quot;:&quot;crop&quot;,&quot;options&quot;:{&quot;start&quot;:{&quot;x&quot;:0,&quot;y&quot;:0},&quot;size&quot;:{&quot;width&quot;:4974,&quot;height&quot;:3330}}},{&quot;command&quot;:&quot;resize&quot;,&quot;options&quot;:{&quot;size&quot;:{&quot;width&quot;:4974,&quot;height&quot;:3332}}}]}</image>
+           <alternativeText __type="string"></alternativeText>
+           <title __type="string"></title>
+           <link __type="string"></link>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="1720bb6d-3045-89ff-5954-120346cf9bd2" nodeName="node-54574bea867a7">
+         <variant sortingIndex="57" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Image" version="5" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <properties>
+           <caption __type="string">&lt;p&gt;Enter caption here&lt;/p&gt;</caption>
+           <alignment __type="string"></alignment>
+           <image __type="object" __classname="TYPO3\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;originalImage&quot;:{&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;000-74.jpg&quot;,&quot;hash&quot;:&quot;c7f5956c88e3f83b0de3015fdb933789c6bff45f&quot;,&quot;__identity&quot;:&quot;2c13b23c-f822-2ca8-e5c2-1cfa289f7b75&quot;},&quot;__identity&quot;:&quot;61188248-833b-bdf5-32bf-9fe1f5b3ffb6&quot;},&quot;processingInstructions&quot;:[{&quot;command&quot;:&quot;crop&quot;,&quot;options&quot;:{&quot;start&quot;:{&quot;x&quot;:0,&quot;y&quot;:0},&quot;size&quot;:{&quot;width&quot;:5184,&quot;height&quot;:3456}}},{&quot;command&quot;:&quot;resize&quot;,&quot;options&quot;:{&quot;size&quot;:{&quot;width&quot;:5184,&quot;height&quot;:3452}}}]}</image>
+           <alternativeText __type="string"></alternativeText>
+           <title __type="string"></title>
+           <link __type="string"></link>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="9e7987a3-6f07-9ee8-8ccb-075a2c4340a7" nodeName="node-54574bf047479">
+         <variant sortingIndex="85" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Image" version="5" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <properties>
+           <caption __type="string">&lt;p&gt;Enter caption here&lt;/p&gt;</caption>
+           <alignment __type="string"></alignment>
+           <image __type="object" __classname="TYPO3\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;originalImage&quot;:{&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;000-85.jpg&quot;,&quot;hash&quot;:&quot;98ae221f0abaeec23ae90df5ccc5751a94a274d8&quot;,&quot;__identity&quot;:&quot;ec8143c6-2866-4495-9cef-5b95bad66f75&quot;},&quot;__identity&quot;:&quot;0e776c6a-08b1-cd1b-5fca-6f70e44bb484&quot;},&quot;processingInstructions&quot;:[{&quot;command&quot;:&quot;crop&quot;,&quot;options&quot;:{&quot;start&quot;:{&quot;x&quot;:0,&quot;y&quot;:0},&quot;size&quot;:{&quot;width&quot;:4896,&quot;height&quot;:3276}}},{&quot;command&quot;:&quot;resize&quot;,&quot;options&quot;:{&quot;size&quot;:{&quot;width&quot;:4896,&quot;height&quot;:3280}}}]}</image>
+           <alternativeText __type="string"></alternativeText>
+           <title __type="string"></title>
+           <link __type="string"></link>
+          </properties>
+         </variant>
+        </node>
+       </node>
+      </node>
+     </node>
+    </node>
+    <node identifier="b9fb6c99-90b7-a5df-3b63-b4f69abe3d2e" nodeName="o-klinike">
+     <variant sortingIndex="163" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="4" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <properties>
+       <title __type="string">О клинике</title>
+      </properties>
+     </variant>
+     <node identifier="36b1769c-99c9-8457-6c3c-8da4777c2f4a" nodeName="dokumenty-i-licenzii">
+      <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Документы и лицензии</title>
+       </properties>
+      </variant>
+      <node identifier="4e608f10-f455-7157-7a11-500d91b960d7" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+       <node identifier="57412421-a099-8f7f-66a2-d86c6b21aff3" nodeName="node-5457a89703715">
+        <variant sortingIndex="250" workspace="live" nodeType="Sfi.Grid:Row" version="3" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <properties/>
+        </variant>
+        <node identifier="d9c21bbb-ae75-c620-4f14-96d24570e60a" nodeName="node-5457a89da084c">
+         <variant sortingIndex="100" workspace="live" nodeType="Sfi.Grid:Column" version="5" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <properties>
+           <large __type="string">large-8</large>
+           <medium __type="string">medium-8</medium>
+           <small __type="string">small-2</small>
+           <largeOffset __type="string">large-offset-2</largeOffset>
+           <mediumOffset __type="string"></mediumOffset>
+           <smallOffset __type="string"></smallOffset>
+          </properties>
+         </variant>
+         <node identifier="2c89c5b8-d157-b934-da3e-eb0c6b76ce29" nodeName="node-5457a4cd5591c">
+          <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="18" removed="" hidden="" hiddenInIndex="">
+           <dimensions/>
+           <accessRoles __type="array"/>
+           <properties>
+            <text __type="string">&lt;h2&gt;Свидетельство о государственной регистрации юридического лица &lt;/h2&gt;&lt;p&gt;Свидетельство о государственной регистрации юридического
+лица №1147746057392. Свидетельство выдано налоговым органом Межрегиональная
+инспекция федеральной налоговой службы №46 по Москве, 30 января 2014 года.&lt;/p&gt;</text>
+           </properties>
+          </variant>
+         </node>
+         <node identifier="0465ba25-84aa-08fb-a11d-b1ebeea85bab" nodeName="node-5457a583707e3">
+          <variant sortingIndex="300" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="9" removed="" hidden="" hiddenInIndex="">
+           <dimensions/>
+           <accessRoles __type="array"/>
+           <properties>
+            <text __type="string">&lt;h2&gt;Лицензия&lt;/h2&gt;&lt;p&gt;Лицензия на осуществление медицинской деятельности №ЛО-77-01-009144 от 15 октября 2014 года.&lt;/p&gt;&lt;p&gt;Приложение №1 к лицензии №ЛО-77-01-009144 на осуществление
+медицинской деятельности от 15 октября 2014 года.&lt;/p&gt;&lt;p&gt; &lt;/p&gt;</text>
+           </properties>
+          </variant>
+         </node>
+        </node>
+       </node>
+       <node identifier="ca18a6b3-b86c-cba3-2c6c-f5db38640494" nodeName="node-5457aa3497716">
+        <variant sortingIndex="300" workspace="live" nodeType="Sfi.Grid:Row" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <properties/>
+        </variant>
+        <node identifier="5664f011-3f32-724d-6168-038ce582e474" nodeName="node-5457aab40b216">
+         <variant sortingIndex="100" workspace="live" nodeType="Sfi.Grid:Column" version="4" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <properties>
+           <large __type="string">large-6</large>
+           <medium __type="string">medium-6</medium>
+           <small __type="string"></small>
+           <largeOffset __type="string"></largeOffset>
+           <mediumOffset __type="string"></mediumOffset>
+           <smallOffset __type="string"></smallOffset>
+          </properties>
+         </variant>
+         <node identifier="9d0c0d0d-5e41-a688-3a36-8368aef5bf94" nodeName="node-5457aabd2a1ca">
+          <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Image" version="4" removed="" hidden="" hiddenInIndex="">
+           <dimensions/>
+           <accessRoles __type="array"/>
+           <properties>
+            <caption __type="string">&lt;p&gt;Enter caption here&lt;/p&gt;</caption>
+            <alignment __type="string"></alignment>
+            <image __type="object" __classname="TYPO3\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;originalImage&quot;:{&quot;title&quot;:&quot;L1.jpg&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;L1.jpg&quot;,&quot;hash&quot;:&quot;12d38e55bababb03705de19496d242396eab35f3&quot;,&quot;__identity&quot;:&quot;417ca20a-1651-ca94-0eef-40f4516fd529&quot;},&quot;__identity&quot;:&quot;f4035b4c-5f42-431e-def9-184dfb33115c&quot;},&quot;processingInstructions&quot;:[{&quot;command&quot;:&quot;crop&quot;,&quot;options&quot;:{&quot;start&quot;:{&quot;x&quot;:0,&quot;y&quot;:0},&quot;size&quot;:{&quot;width&quot;:1387,&quot;height&quot;:2000}}},{&quot;command&quot;:&quot;resize&quot;,&quot;options&quot;:{&quot;size&quot;:{&quot;width&quot;:1387,&quot;height&quot;:1998}}}]}</image>
+            <alternativeText __type="string"></alternativeText>
+            <title __type="string"></title>
+            <link __type="string"></link>
+           </properties>
+          </variant>
+         </node>
+        </node>
+        <node identifier="d3c3715b-b7f7-39a2-8ac4-5441add14864" nodeName="node-5457ab0095c52">
+         <variant sortingIndex="200" workspace="live" nodeType="Sfi.Grid:Column" version="5" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <properties>
+           <large __type="string">large-6</large>
+           <medium __type="string">medium-6</medium>
+           <small __type="string"></small>
+           <largeOffset __type="string"></largeOffset>
+           <mediumOffset __type="string"></mediumOffset>
+           <smallOffset __type="string"></smallOffset>
+          </properties>
+         </variant>
+         <node identifier="267ab646-4467-4446-00c5-9b968ac8143e" nodeName="node-5457ab068e958">
+          <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Image" version="4" removed="" hidden="" hiddenInIndex="">
+           <dimensions/>
+           <accessRoles __type="array"/>
+           <properties>
+            <caption __type="string">&lt;p&gt;Enter caption here&lt;/p&gt;</caption>
+            <alignment __type="string"></alignment>
+            <image __type="object" __classname="TYPO3\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;originalImage&quot;:{&quot;title&quot;:&quot;pl.jpg&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;pl.jpg&quot;,&quot;hash&quot;:&quot;4d95009a07d354b93e49853e3e5f6d8530ea731b&quot;,&quot;__identity&quot;:&quot;0e3c78f6-8458-f404-80e9-dbd7fc03f91f&quot;},&quot;__identity&quot;:&quot;31dbd3e7-5853-c9b7-3a6d-290881f829b1&quot;},&quot;processingInstructions&quot;:[{&quot;command&quot;:&quot;crop&quot;,&quot;options&quot;:{&quot;start&quot;:{&quot;x&quot;:0,&quot;y&quot;:0},&quot;size&quot;:{&quot;width&quot;:1386,&quot;height&quot;:2000}}},{&quot;command&quot;:&quot;resize&quot;,&quot;options&quot;:{&quot;size&quot;:{&quot;width&quot;:1386,&quot;height&quot;:1997}}}]}</image>
+            <alternativeText __type="string"></alternativeText>
+            <title __type="string"></title>
+            <link __type="string"></link>
+           </properties>
+          </variant>
+         </node>
+        </node>
+       </node>
+       <node identifier="6828eecb-eeb3-102f-f38a-50d8aab63e79" nodeName="node-5457ab7de4e0e">
+        <variant sortingIndex="350" workspace="live" nodeType="Sfi.Grid:Row" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <properties/>
+        </variant>
+        <node identifier="f8640b75-1d42-ea68-a949-f38737f4694e" nodeName="node-5457ab8584ee8">
+         <variant sortingIndex="100" workspace="live" nodeType="Sfi.Grid:Column" version="4" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <properties>
+           <large __type="string">large-8</large>
+           <medium __type="string">medium-8</medium>
+           <small __type="string"></small>
+           <largeOffset __type="string">large-offset-2</largeOffset>
+           <mediumOffset __type="string">medium-offset-2</mediumOffset>
+           <smallOffset __type="string"></smallOffset>
+          </properties>
+         </variant>
+         <node identifier="c4df4f39-c6a0-0e70-9b84-5e963faae3f6" nodeName="node-5457abb4e84be">
+          <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="23" removed="" hidden="" hiddenInIndex="">
+           <dimensions/>
+           <accessRoles __type="array"/>
+           <properties>
+            <text __type="string">&lt;h2&gt;Адреса и телефоны органа исполнительной власти субъекта
+Российской Федерации в сфере охраны здоровья граждан, территориального органа
+Федеральной службы по надзору в сфере здравоохранения и территориального органа
+Федеральной службы по надзору в сфере защиты прав потребителей и благополучия
+человека.&lt;/h2&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;h3&gt;Министерство
+здравоохранения Российской Федерации&lt;/h3&gt;&lt;p&gt;
+
+ 
+
+Адрес: 127994, ГСП-4, г. Москва, Рахмановский пер, д. 3&lt;br/&gt;Телефон Справочной службы Министерства: +7 495 628-4453, +7 495 627-2944&lt;br/&gt;Многоканальный телефон Министерства: +7 495 627-2400&lt;br/&gt;Телефон для обращения граждан: +7 495 627-2993&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;h3&gt;
+
+ 
+
+Министерство
+здравоохранения Московской области
+
+ &lt;/h3&gt;&lt;p&gt; Адрес: 143407, МО, г. Красногорск, бульвар Строителей, д. 1. Дом Правительства Московской области.&lt;br/&gt;Телефон: +7 498 602-0301&lt;br/&gt;Факс: +7 498 602-0300&lt;br/&gt;Горячая линия единой региональной информационной системы льготного лекарственного обеспечения: +7 498 602-0359&lt;br/&gt;Телефон: +7 498 602-0309 для справок по служебной документации&lt;br/&gt;Контакты: +7 498 602-0308 для справок по документам связанными с письменными обращениями граждан&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;h3&gt;Территориальный
+орган Федеральной службы по надзору в сфере здравоохранения по г. Москва и
+Московской области&lt;/h3&gt;&lt;p&gt;
+
+ 
+
+Адрес: Москва, ул. Вучетича, д. 12 А&lt;br/&gt;Телефон: +7 495 611-4774&lt;br/&gt;Email: office@reg77.roszdravnadzor.ru&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;h3&gt;Территориальное
+управление Федеральной службы по надзору в сфере защиты прав
+потребителей и благополучия человека по городу Москве
+(ТУ Роспотребнадзора по г.Москва)
+
+ 
+
+&lt;/h3&gt;&lt;p&gt; Адрес:129626, г.Москва, Графский переулок, дом 4, корпус 3&lt;br/&gt;Телефон: +7 495 687-4035 справочная служба&lt;br/&gt;Факс: +7 495 616-6569&lt;br/&gt;Email: uprav@77.rospotrebnadzor.ru&lt;br/&gt;Сайт: www.77.rospotrebnadzor.ru&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;</text>
+           </properties>
+          </variant>
+         </node>
+        </node>
+       </node>
+      </node>
+     </node>
+    </node>
+   </node>
+   <node identifier="f46dc876-11f0-14e5-cff6-0f1fea01e4fa" nodeName="main">
+    <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+     <dimensions/>
+     <accessRoles __type="array"/>
+     <properties/>
+    </variant>
+   </node>
+   <node identifier="fca24bef-5c70-e3f0-47a4-ac78f361bafd" nodeName="main">
+    <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+     <dimensions/>
+     <accessRoles __type="array"/>
+     <properties/>
+    </variant>
+    <node identifier="5cd8c4e4-1915-934f-4135-ae611a414ad7" nodeName="node-5453946d99ed4">
+     <variant sortingIndex="100" workspace="live" nodeType="Sfi.Grid:Row" version="3" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <properties/>
+     </variant>
+     <node identifier="8815951b-05d9-7546-ad2d-89953af106a5" nodeName="node-545394767b59c">
+      <variant sortingIndex="175" workspace="live" nodeType="Sfi.Grid:Column" version="9" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <large __type="string">large-6</large>
+        <medium __type="string"></medium>
+        <small __type="string"></small>
+        <largeOffset __type="string"></largeOffset>
+        <mediumOffset __type="string"></mediumOffset>
+        <smallOffset __type="string"></smallOffset>
+       </properties>
+      </variant>
+      <node identifier="ccef967b-2c21-4c51-7a79-59ed12d3de44" nodeName="node-5453957e4fc4a">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Image" version="5" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <caption __type="string">&lt;p&gt;Enter caption here&lt;/p&gt;</caption>
+         <alignment __type="string"></alignment>
+         <image __type="object" __classname="TYPO3\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;originalImage&quot;:{&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;000-34.jpg&quot;,&quot;hash&quot;:&quot;4cf297af22db88f95cdbbc8afccbe075b62ca9cd&quot;,&quot;__identity&quot;:&quot;3d0db7ac-a9c6-2177-9c2c-67c33363b5f4&quot;},&quot;__identity&quot;:&quot;f1529161-aea6-a74c-a9bb-85f1750bc37b&quot;},&quot;processingInstructions&quot;:[{&quot;command&quot;:&quot;crop&quot;,&quot;options&quot;:{&quot;start&quot;:{&quot;x&quot;:0,&quot;y&quot;:0},&quot;size&quot;:{&quot;width&quot;:5184,&quot;height&quot;:3456}}},{&quot;command&quot;:&quot;resize&quot;,&quot;options&quot;:{&quot;size&quot;:{&quot;width&quot;:5184,&quot;height&quot;:3452}}}]}</image>
+         <alternativeText __type="string"></alternativeText>
+         <title __type="string"></title>
+         <link __type="string"></link>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="498c897e-a40e-e92d-1e55-31d5e99621dd" nodeName="node-54576c86dbe1d">
+      <variant sortingIndex="275" workspace="live" nodeType="Sfi.Grid:Column" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <large __type="string">large-6</large>
+        <medium __type="string">medium-6</medium>
+        <small __type="string"></small>
+        <largeOffset __type="string"></largeOffset>
+        <mediumOffset __type="string"></mediumOffset>
+        <smallOffset __type="string"></smallOffset>
+       </properties>
+      </variant>
+      <node identifier="65360380-3e0b-0f36-c147-db48c8424344" nodeName="node-54576c8c9b6d3">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="7" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;p&gt;В нашей клинике трудится слаженная команда высококвалифицированных специалистов, каждый из которых обладает большим опытом и уникальными методами работы в своей области. Мы предлагаем широкий спектр услуг, чтобы все наши пациенты нашли необходимую им помощь и рекомендации. Мы создали для наших врачей и пациентов домашнюю атмосферу, чтобы трудиться и лечиться здесь было приятно и легко. Простота обстановки в нашей клинике позволяет нам при использовании лучших материалов и высококлассной техники держать цены в среднем диапазоне, чтобы наши услуги были доступны каждому.&lt;br/&gt;&lt;/p&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="e25f7694-7809-05e9-8483-c9218ee34bab" nodeName="node-5453970b1e2d8">
+     <variant sortingIndex="150" workspace="live" nodeType="Sfi.Grid:Row" version="4" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <properties/>
+     </variant>
+     <node identifier="95f9ac88-6466-0adb-236d-be46ebc2aa24" nodeName="node-5453a05f98e0f">
+      <variant sortingIndex="169" workspace="live" nodeType="Sfi.Grid:Column" version="7" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <large __type="string">large-8</large>
+        <medium __type="string">medium-8</medium>
+        <small __type="string"></small>
+        <largeOffset __type="string">large-offset-2</largeOffset>
+        <mediumOffset __type="string">medium-offset-2</mediumOffset>
+        <smallOffset __type="string"></smallOffset>
+       </properties>
+      </variant>
+      <node identifier="be8943f6-6620-5c9b-378b-5975c95acaab" nodeName="node-5453a04acc654">
+       <variant sortingIndex="250" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="6" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;h2&gt;Наше оборудование&lt;/h2&gt;&lt;p&gt;Мы используем стоматологические установки и оборудование фирмы &quot;Sirona&quot; (Siemens AG). Компания Sirona (Сирона) является мировым лидером в сфере производства высокотехнологичного стоматологического оборудования и разработки инновационных решений в области стоматологии. Компания разрабатывает, производит и продает полный ассортимент стоматологического оборудования, включая CAD/CAM системы, цифровые интраоральные рентгеновские системы, трехмерные и панорамные рентгеновские системы, стоматологические установки, наконечники, настольные приборы и аппараты для гигиены. Компания Sirona является двигателем научно-технического прогресса в области стоматологии. Разработав первую стоматологическую бормашину с электрическим приводом в 1887 году, компания стала постоянным лидером в области развития технологий. Компания является мировым лидером в сфере разработки цифровых технологий в стоматологии, которые позволили усовершенствовать рабочий процесс, повысить комфорт для пациентов и, в конечном итоге, обеспечить уверенную, успешную работу стоматологов, использующих технологии компании Sirona в своей деятельности. Большую часть своей продукции компания Sirona разрабатывает и выпускает в Бейнсхайме (Германия) где располагается крупнейший научно-исследовательский и производственный центр в области стоматологии.&lt;/p&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="b596a07e-083a-df1b-0e68-350600cbb618" nodeName="node-5453a16e09f2a">
+     <variant sortingIndex="169" workspace="live" nodeType="Sfi.Grid:Row" version="4" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <properties/>
+     </variant>
+     <node identifier="45fc717f-b5d0-0c61-980a-32026e9022a9" nodeName="node-5453a17539ab6">
+      <variant sortingIndex="25" workspace="live" nodeType="Sfi.Grid:Column" version="8" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <large __type="string">large-8</large>
+        <medium __type="string">medium-8</medium>
+        <small __type="string"></small>
+        <largeOffset __type="string">large-offset-2</largeOffset>
+        <mediumOffset __type="string">medium-offset-2</mediumOffset>
+        <smallOffset __type="string"></smallOffset>
+       </properties>
+      </variant>
+      <node identifier="8898c35a-3bf9-a917-c4eb-f25a96aa9516" nodeName="node-5453a17d6a91a">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="6" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;h2&gt;Наши материалы&lt;/h2&gt;&lt;p&gt;Heraeus Kulzer GmbH (Германия) — Charisma (r)&lt;br/&gt;3М (США) — Filtek(tm) Ultimate&lt;br/&gt;3M ESPE (США) — RelyX (tm) ARC&lt;br/&gt;Фирма Kerr (США) — Premise&lt;br/&gt;Фирма Bisco (США) — Aelite (tm) Aestetic Enamel&lt;br/&gt;Dentsply DeTrey GmbH (Германия) — AH Plus (r)&lt;br/&gt;Septodont (Франция) — вся линейка фирмы &lt;br/&gt;&lt;/p&gt;</text>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="08ad5451-231e-832f-2f8b-5643cdd96f1a" nodeName="node-54577d2ec46f4">
+       <variant sortingIndex="285" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="6" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;h2&gt;Наши инструменты&lt;/h2&gt;&lt;p&gt;Dentsply Maillefer (Швейцария)&lt;br/&gt;Hu-Friedy (США)&lt;br/&gt;&lt;/p&gt;</text>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="8b52e1dd-b4a8-a8b3-2a4a-b446ea0514cc" nodeName="node-5457d6b258505">
+       <variant sortingIndex="335" workspace="live" nodeType="Sfi.Widgets:Link" version="10" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <variant __type="string">Link-Button</variant>
+         <text __type="string">Документы и лицензии</text>
+         <target __type="string">node://36b1769c-99c9-8457-6c3c-8da4777c2f4a</target>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+   </node>
+   <node identifier="7d18d931-cadf-1f17-76c1-055f22f4575c" nodeName="styleguide">
+    <variant sortingIndex="575" workspace="live" nodeType="TYPO3.Neos:Shortcut" version="4" removed="" hidden="" hiddenInIndex="">
+     <dimensions/>
+     <accessRoles __type="array"/>
+     <properties>
+      <targetMode __type="string">firstChildNode</targetMode>
+      <title __type="string">Styleguide</title>
+     </properties>
+    </variant>
+    <node identifier="f51799f1-c195-9ccc-039d-1577ef9f81b9" nodeName="atoms">
+     <variant sortingIndex="100" workspace="live" nodeType="Sfi.Styleguide:Category" version="4" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <properties>
+       <title __type="string">Atoms</title>
+      </properties>
+     </variant>
+     <node identifier="e002adf0-cbbf-4a17-e7d7-9a8ca5fbb0ce" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties/>
+      </variant>
+      <node identifier="336d4af3-5443-7e67-f1a4-beb870c1bc32" nodeName="node-5457758308a0b">
+       <variant sortingIndex="100" workspace="live" nodeType="Sfi.Styleguide:SubCategory" version="8" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <title __type="string">&lt;h2&gt;Font&lt;/h2&gt;</title>
+         <description __type="string">&lt;p&gt;Font atoms go here...&lt;/p&gt;</description>
+        </properties>
+       </variant>
+       <node identifier="52b746b9-5c6b-32dd-66c6-52d83db045e6" nodeName="node-545775b821917">
+        <variant sortingIndex="100" workspace="live" nodeType="Sfi.Styleguide:Item" version="6" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <properties>
+          <title __type="string">&lt;h3&gt;Paragraph&lt;/h3&gt;</title>
+          <description __type="string">&lt;p&gt;&lt;/p&gt;</description>
+         </properties>
+        </variant>
+        <node identifier="dd53d6e4-c49b-c036-049c-45dbcc9ea3b8" nodeName="node-545776c39ce89">
+         <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Html" version="6" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <properties>
+           <source __type="string">&lt;p class=&quot;Paragraph--Small&quot;&gt;Small Paragraph style.&lt;/p&gt;
+&lt;p class=&quot;Paragraph&quot;&gt;Normal Paragraph style.&lt;/p&gt;
+&lt;p class=&quot;Paragraph--Large&quot;&gt;Large Paragraph style.&lt;/p&gt;</source>
+          </properties>
+         </variant>
+        </node>
+       </node>
+       <node identifier="437e7982-7de9-2c66-8049-f195cf24be58" nodeName="node-5457767935771">
+        <variant sortingIndex="150" workspace="live" nodeType="Sfi.Styleguide:Item" version="7" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <properties>
+          <title __type="string">&lt;h3&gt;Main headings&lt;/h3&gt;</title>
+          <description __type="string">&lt;p&gt;&lt;/p&gt;</description>
+         </properties>
+        </variant>
+        <node identifier="9b882241-4c33-9d68-0bf0-71cbbcec9a41" nodeName="node-545776a0850c9">
+         <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Html" version="5" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <properties>
+           <source __type="string">&lt;p class=&quot;H1&quot;&gt;.H1 heading style&lt;/p&gt;
+&lt;p class=&quot;H2&quot;&gt;.H2 heading style&lt;/p&gt;
+&lt;p class=&quot;H3&quot;&gt;.H3 heading style&lt;/p&gt;</source>
+          </properties>
+         </variant>
+        </node>
+       </node>
+      </node>
+     </node>
+    </node>
+    <node identifier="58108fa4-1cb2-a6b5-7672-df9a0f13ead6" nodeName="quarks">
+     <variant sortingIndex="50" workspace="live" nodeType="Sfi.Styleguide:Category" version="4" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <properties>
+       <title __type="string">Quarks</title>
+      </properties>
+     </variant>
+     <node identifier="b94b45bf-559f-56bd-b9c4-b0f335ef7a62" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties/>
+      </variant>
+      <node identifier="c737f57e-2b68-6f22-1410-1cb95812fe50" nodeName="node-5457777acbcc3">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Styleguide:SubCategory" version="10" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <title __type="string">&lt;h2&gt;Color&lt;/h2&gt;</title>
+         <description __type="string">&lt;p&gt;Color quarks&lt;/p&gt;</description>
+        </properties>
+       </variant>
+       <node identifier="92453b06-2f5c-311e-5b0b-cfc96fa8e432" nodeName="node-545777701dd7c">
+        <variant sortingIndex="200" workspace="live" nodeType="Sfi.Styleguide:Item" version="3" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <properties>
+          <title __type="string">&lt;h3&gt;Item title&lt;/h3&gt;</title>
+          <description __type="string">&lt;p&gt;&lt;/p&gt;</description>
+         </properties>
+        </variant>
+       </node>
+      </node>
+     </node>
+    </node>
+   </node>
+   <node identifier="74408cd4-cc20-612f-9f92-19f6c06abe44" nodeName="uslugi">
+    <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos:Shortcut" version="3" removed="" hidden="" hiddenInIndex="">
+     <dimensions/>
+     <accessRoles __type="array"/>
+     <properties>
+      <targetMode __type="string">firstChildNode</targetMode>
+      <title __type="string">Услуги</title>
+     </properties>
+    </variant>
+    <node identifier="e935c0e2-2f7b-851d-859f-16378b7678a5" nodeName="hirurgiya-i-implantaciya-zubov">
+     <variant sortingIndex="675" workspace="live" nodeType="Sfi.Erm:ServiceCategory" version="4" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <properties>
+       <targetMode __type="string">firstChildNode</targetMode>
+       <title __type="string">Хирургия и имплантация зубов</title>
+      </properties>
+     </variant>
+     <node identifier="02381df7-afac-a021-01c8-2e41cba41acd" nodeName="hirugicheskoe-lechenie">
+      <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Хиругическое лечение</title>
+       </properties>
+      </variant>
+      <node identifier="1adc3bcc-73b9-941f-bbba-1decf19d6532" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="7bae4feb-a661-102d-8ab6-0e30c47e500c" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="1ca63a7e-f130-be68-b60b-d2a4d7635774" nodeName="hirurgicheskaya-podgotovka-k-implantacii-zubov">
+      <variant sortingIndex="250" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Хирургическая подготовка к имплантации зубов</title>
+       </properties>
+      </variant>
+      <node identifier="0e7ce7d5-4cd8-6c26-eb45-6f111a378242" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="b1303b57-28a3-9b33-cc99-4be75f9841ff" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="ec75eb04-5430-7294-178e-fb926a53a8d9" nodeName="implantaciya-zubov">
+      <variant sortingIndex="100" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Имплантация зубов</title>
+       </properties>
+      </variant>
+      <node identifier="36fe37ec-4183-3f71-4ac5-b0ded7dd5bfa" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="4d799e3c-64d8-b5f1-f4a7-851b1f2881c6" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="6e230ec5-10da-452d-f556-5329e6e4caff" nodeName="udalenie-zubov">
+      <variant sortingIndex="150" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Удаление зубов</title>
+       </properties>
+      </variant>
+      <node identifier="0e27ab2d-c359-5537-304e-43ccf59def37" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="5d72850f-fa9d-08f8-8c4c-ab6ce47d7d18" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="54036a3b-e02e-510b-acf3-be0cd7ce15e1" nodeName="ispravlenie-i-korrekciya-prikusa-ortodontiya">
+     <variant sortingIndex="688" workspace="live" nodeType="Sfi.Erm:ServiceCategory" version="4" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <properties>
+       <targetMode __type="string">firstChildNode</targetMode>
+       <title __type="string">Исправление и коррекция прикуса (ортодонтия)</title>
+      </properties>
+     </variant>
+     <node identifier="46178d04-0ec7-d19d-18f6-937846072d7b" nodeName="obsluzhivanie-ortodonticheskih-konstrukcij">
+      <variant sortingIndex="300" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Обслуживание ортодонтических конструкций</title>
+       </properties>
+      </variant>
+      <node identifier="ba81bc1d-1465-3aea-0003-7eb291449ef9" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="e36b94a7-85eb-d725-e2e1-ee11da7235d1" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="eb72f87b-8ab0-18df-d953-645ce6d55465" nodeName="ustanovka-esteticheskih-breket-sistem">
+      <variant sortingIndex="100" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Установка эстетических брекет-систем</title>
+       </properties>
+      </variant>
+      <node identifier="3b07f2a6-6851-56ec-0bd5-cf6836fa57d5" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="74bd78bf-30ee-90ea-b587-7be63a26dd4f" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="a5afdd05-e58a-0c62-f527-dd46ebcd8ce3" nodeName="ustanovka-lingvalnoj-breket-sistemy">
+      <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Установка лингвальной брекет-системы</title>
+       </properties>
+      </variant>
+      <node identifier="ae29a509-2a60-ae8d-cff0-081f00cb4363" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="36bbcab3-ef6c-27aa-9eec-881a8429e7fb" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="52fd8eef-9b0a-86f7-c0fc-1efeca24883f" nodeName="ustanovka-metallicheskih-breket-sistem">
+      <variant sortingIndex="150" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Установка металлических брекет-систем</title>
+       </properties>
+      </variant>
+      <node identifier="3de0682e-ff61-448b-b086-deee70e5121f" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="1095b7bf-1614-678c-432d-10a2cccd3b23" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="f17a5cb0-5302-2605-d932-3c8a02f110cb" nodeName="ustanovka-ortodonticheskih-apparatov">
+      <variant sortingIndex="250" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Установка ортодонтических аппаратов</title>
+       </properties>
+      </variant>
+      <node identifier="c7f7a3d7-53ab-7427-aae9-6b47aeae2310" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="a77613ba-086d-7c4f-19ab-0bef91f4440f" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="886252cd-e0a3-5c12-325d-d88bb45ef379" nodeName="konsultaciya">
+     <variant sortingIndex="100" workspace="live" nodeType="Sfi.Erm:ServiceCategory" version="4" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <properties>
+       <targetMode __type="string">firstChildNode</targetMode>
+       <title __type="string">Консультация</title>
+      </properties>
+     </variant>
+     <node identifier="1ff28ca7-2cd5-3db9-8479-0880ce7ed76c" nodeName="konsultaciya-ortodonta">
+      <variant sortingIndex="300" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Консультация ортодонта</title>
+       </properties>
+      </variant>
+      <node identifier="bbdbe706-8e69-8ed9-f011-49e7e48a09ea" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="b92d7bf9-408e-f26d-ab9c-2d4e74eeca98" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="2f8a84b6-435b-b91c-d04e-d45e09ea0073" nodeName="konsultaciya-parodontologa">
+      <variant sortingIndex="350" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Консультация пародонтолога</title>
+       </properties>
+      </variant>
+      <node identifier="ade5f3cb-7b2b-c947-0448-f98b3880ee26" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="87ffa794-f809-1b96-f2f3-bf4eb7af431d" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="67834757-71d3-ac31-8e2e-8fde547243b8" nodeName="konsultaciya-stomatologa-hirurga">
+      <variant sortingIndex="250" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Консультация стоматолога-хирурга</title>
+       </properties>
+      </variant>
+      <node identifier="3b07ba22-b2b9-4d80-ed34-83df053d6c3f" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="d2e9ef8f-eeb5-5589-d5a3-fbdc88aefb36" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="ed9855dc-1270-29a7-ec77-0dff8e66cbb5" nodeName="konsultaciya-stomatologa-ortopeda">
+      <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Консультация стоматолога-ортопеда</title>
+       </properties>
+      </variant>
+      <node identifier="0d73f935-086c-5b3e-777b-4ae1350122c8" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="b70a6027-77ab-b1bc-1ee4-7792cb9acd92" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="8fca94cd-6a5c-dc2f-e754-c82c1006edcd" nodeName="konsultaciya-stomatologa-terapevta">
+      <variant sortingIndex="100" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Консультация стоматолога-терапевта</title>
+       </properties>
+      </variant>
+      <node identifier="be04f813-6602-d1ab-86d8-33a9052b3223" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="61764229-7942-efe5-b780-be1979d42aea" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string"></text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="d0b5ec19-cdb6-4025-3595-84e2b0e85ba2" nodeName="lechenie-dyosen-parodontologiya">
+     <variant sortingIndex="600" workspace="live" nodeType="Sfi.Erm:ServiceCategory" version="5" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <properties>
+       <targetMode __type="string">firstChildNode</targetMode>
+       <title __type="string">Лечение дёсен (пародонтология)</title>
+      </properties>
+     </variant>
+     <node identifier="44a6979d-2478-7df6-207f-e9ed2491521c" nodeName="bazovaya-hirurgicheskaya-parodontologiya">
+      <variant sortingIndex="250" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Базовая хирургическая пародонтология</title>
+       </properties>
+      </variant>
+      <node identifier="28eae5ec-2d89-0638-bfaf-b89b98daa571" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="79cbdebb-e1fd-b623-89be-0648d7a31afe" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="ecae722f-c4a4-35ca-9087-4b2d5f1b9b1b" nodeName="hirurgicheskaya-parodontologiya-s-elementami-plastiki">
+      <variant sortingIndex="300" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Хирургическая пародонтология с элементами пластики</title>
+       </properties>
+      </variant>
+      <node identifier="ab3f6e0a-a15e-99cc-e5c8-519f91f41d32" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="9c129377-b816-814c-838f-f33bde809d6b" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="f741b1bc-9c02-d749-3100-54839292f8b2" nodeName="lechenie-podvizhnyh-zubov-shinirovanie">
+      <variant sortingIndex="150" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Лечение подвижных зубов (шинирование)</title>
+       </properties>
+      </variant>
+      <node identifier="3bf28d36-0b48-0ca2-0729-4db481168145" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="540e064b-292d-327d-3f33-71e6dec9565e" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="89173b23-923a-b41f-ebe0-fb5a095a1116" nodeName="parodontalnaya-terapiya">
+      <variant sortingIndex="100" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Пародонтальная терапия</title>
+       </properties>
+      </variant>
+      <node identifier="cb3d3adc-413e-0ea5-0b81-0fd6124c798a" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="5672c69c-00d0-9625-c55f-93312c97dcab" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="14316939-e7f6-827f-807e-284902cc1649" nodeName="terapiya-oslozhnenij-posle-implantacii">
+      <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Терапия осложнений после имплантации</title>
+       </properties>
+      </variant>
+      <node identifier="38ab6e4d-85b4-fa99-1c9b-8b609474c067" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="fdf37b8e-5410-0cf8-56b7-a735cd86d498" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="c60b00b7-73bd-cd03-ae20-c4d0fb402d25" nodeName="vosstanovlenie-estetiki-desny">
+      <variant sortingIndex="350" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Восстановление эстетики десны</title>
+       </properties>
+      </variant>
+      <node identifier="740449ba-22c7-ca92-03ae-16e999271200" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="3914a839-2d8a-f3bd-cab0-f9539a351463" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="265f1f62-e2ab-4125-fec9-03908a2407de" nodeName="lechenie-zubov">
+     <variant sortingIndex="300" workspace="live" nodeType="Sfi.Erm:ServiceCategory" version="4" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <properties>
+       <targetMode __type="string">firstChildNode</targetMode>
+       <title __type="string">Лечение зубов</title>
+      </properties>
+     </variant>
+     <node identifier="975ca76f-2db3-2e90-061e-df763e923e82" nodeName="ftorirovanie-zubov">
+      <variant sortingIndex="300" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Фторирование зубов</title>
+       </properties>
+      </variant>
+      <node identifier="9c5c9bef-4894-09d4-8a3e-0b8ec354aa9a" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="2d5edc9d-0c2b-d2a7-1ef4-afd81dd36f3f" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="47018ced-9735-cc2c-965d-a160ac1556c8" nodeName="lechenie-giperestezii-zubov">
+      <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Лечение гиперестезии зубов</title>
+       </properties>
+      </variant>
+      <node identifier="367efb39-0458-82ca-75fe-90cd46869117" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="0427cd11-d7ce-b181-73b7-b221e5eacce8" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="a40c3a7b-e160-e511-63f8-7c9d68a99218" nodeName="lechenie-kanalov-kist-granulem">
+      <variant sortingIndex="150" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Лечение каналов (кист, гранулем)</title>
+       </properties>
+      </variant>
+      <node identifier="4897c633-a2cc-6415-d3d9-bea60fd22530" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="68e676bd-b209-26db-5c62-ecedc8f8400a" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="943abc8d-1b99-b672-5880-5cf570a97a0d" nodeName="lechenie-kariesa-i-esteticheskaya-restavraciya-viniry">
+      <variant sortingIndex="100" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Лечение кариеса и эстетическая реставрация (виниры)</title>
+       </properties>
+      </variant>
+      <node identifier="7b565244-5348-166f-d49b-0dc8f85c331f" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="30832cba-9210-5052-d34b-be7c818cbe76" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="6" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Лечение поверхностного кариеса пломбированием светоотверждаемым композитом, 1 поверхности передних зубов и премоляров&lt;/td&gt;&lt;td&gt;7115&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Лечение среднего кариеса пломбированием светоотверждаемым композитом, 1 поверхности передних зубов и премоляров &lt;/td&gt;&lt;td&gt;11295 &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Лечение глубокого кариеса пломбированием светоотверждаемым композитом, 1 поверхности передних зубов и премоляров &lt;/td&gt;&lt;td&gt;13665&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Лечение клиновидного, абфракционного дефекта, путем пломбирования светоотверждаемым композитом&lt;/td&gt;&lt;td&gt;8600&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Лечение кариеса в стадии пятна методом инфильтрации Icon&lt;/td&gt;&lt;td&gt;5985 &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Лечение кариеса комбинированным методом: пломбирование+ инфильтрация &lt;/td&gt;&lt;td&gt;9085 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="c81a4d66-8efb-5557-b319-cb9b6ff9a7ae" nodeName="lechenie-klinovidnyh-abfrakcionnyh-defektov">
+      <variant sortingIndex="400" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Лечение клиновидных (абфракционных) дефектов</title>
+       </properties>
+      </variant>
+      <node identifier="7238f5d6-0984-6542-a951-7486ed923daa" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="7e9c6021-33e3-e9db-87a4-3838d919dc5d" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="ff1ae15d-3da0-bcf7-24e8-792a622d8184" nodeName="professionalnaya-gigiena-polosti-rta-chistka-zubov">
+      <variant sortingIndex="250" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Профессиональная гигиена полости рта (чистка зубов)</title>
+       </properties>
+      </variant>
+      <node identifier="411c4943-c617-ec6b-7db4-03c406603e72" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="52719364-fc3b-e22f-95fe-7a34a94c1f55" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="456cb8f9-07c7-04d0-4e58-8878fca1301c" nodeName="zakrytie-vklyuchennogo-defekta-zubnogo-ryada-vo-frontalnom-otdele-pryamym-metodom-v-odno-poseshenie-adgezivnyj-protez">
+      <variant sortingIndex="350" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Закрытие включенного дефекта зубного ряда во фронтальном отделе прямым методом в одно посещение (адгезивный протез)</title>
+       </properties>
+      </variant>
+      <node identifier="8d6d6c9f-a1c6-5670-9822-a6fb4a8504fd" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="027f89c9-e6b6-a9c9-f115-1e02553874e1" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="0c6e2b63-9e90-67d3-8221-01086a38b064" nodeName="mikroprotezirovanie">
+     <variant sortingIndex="400" workspace="live" nodeType="Sfi.Erm:ServiceCategory" version="4" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <properties>
+       <targetMode __type="string">firstChildNode</targetMode>
+       <title __type="string">Микропротезирование</title>
+      </properties>
+     </variant>
+    </node>
+    <node identifier="1fd73fdc-65cc-a128-2308-bfcd9d2efc2e" nodeName="otbelivanie-zubov">
+     <variant sortingIndex="500" workspace="live" nodeType="Sfi.Erm:ServiceCategory" version="4" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <properties>
+       <targetMode __type="string">firstChildNode</targetMode>
+       <title __type="string">Отбеливание зубов</title>
+      </properties>
+     </variant>
+     <node identifier="c529f33c-7f48-5907-b3bf-37c826f0225e" nodeName="apparatnye-metody-otbelivaniya-zubov">
+      <variant sortingIndex="150" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Аппаратные методы отбеливания зубов</title>
+       </properties>
+      </variant>
+      <node identifier="b1a7e843-cd39-b066-39d2-2fe10048f760" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="1da41176-ec96-16ea-2136-0b6389330d8a" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="11b47a7d-b364-c6c5-ad2d-6b610a9c6627" nodeName="domashnee-otbelivanie-zubov">
+      <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Домашнее отбеливание зубов</title>
+       </properties>
+      </variant>
+      <node identifier="d12a105e-986f-1bbe-5593-a034e595812d" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="2e3a5444-c7c0-b3c6-0366-5a7c30f04ac2" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="80974a68-8069-f785-8415-020970e6047f" nodeName="klinicheskoe-otbelivanie">
+      <variant sortingIndex="100" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Клиническое отбеливание</title>
+       </properties>
+      </variant>
+      <node identifier="f02692ce-51ff-7dec-f976-5c1ac74b7d83" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="84f5b3c2-3c1f-75eb-15f9-60f836a85be3" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="151cb837-af01-affe-328f-39697de6964c" nodeName="protezirovanie-zubov-ortopediya">
+     <variant sortingIndex="650" workspace="live" nodeType="Sfi.Erm:ServiceCategory" version="5" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <properties>
+       <targetMode __type="string">firstChildNode</targetMode>
+       <title __type="string">Протезирование зубов (ортопедия)</title>
+      </properties>
+     </variant>
+     <node identifier="f64c7beb-cd78-02e6-68b8-a5dc3a9dedbe" nodeName="bezmetallovaya-keramika">
+      <variant sortingIndex="250" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Безметалловая керамика</title>
+       </properties>
+      </variant>
+      <node identifier="8854362b-2711-1a14-b25a-7b28d02786ae" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="29192bd6-2556-0a2a-bc7d-c2b5f6cdbf1c" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="7dd2895d-61eb-34c7-03e3-535eecc32cfc" nodeName="byugelnoe-protezirovanie">
+      <variant sortingIndex="300" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Бюгельное протезирование</title>
+       </properties>
+      </variant>
+      <node identifier="7ba84f0c-d161-cbdf-2f65-c449bf7f62ae" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="2c6acb78-e445-c08c-a603-10c8dcff2046" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="ce2d31bc-45de-c1ee-eeec-91da58c99d68" nodeName="izbiratelnoe-prishlifovyvanie-zubov">
+      <variant sortingIndex="450" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Избирательное пришлифовывание зубов</title>
+       </properties>
+      </variant>
+      <node identifier="fdc86108-b23c-4a84-4d63-079a6c890e83" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="a3ebe5ad-add7-71df-2be3-479b17b26091" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="d61b29c7-b9a5-75b3-5768-b5a8ea5cb3b7" nodeName="lechenie-disfunkcii-vnchs">
+      <variant sortingIndex="500" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Лечение дисфункции ВНЧС</title>
+       </properties>
+      </variant>
+      <node identifier="0d6d2b9b-7340-3f31-212a-69194c8a59a3" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="82b8c3e0-a382-f492-105c-4e75f190f407" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="92b7272f-3b73-bbbe-72d9-b61efec6220c" nodeName="protezirovanie-metallokeramikoj">
+      <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Протезирование металлокерамикой</title>
+       </properties>
+      </variant>
+      <node identifier="aeba4add-b0ed-7417-44ea-c94ff3534835" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="b26bf16c-b934-684c-af02-8931cf0a6fd4" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="bfebc7b5-9398-b483-36f2-9743c0f1f8b2" nodeName="protezirovanie-na-blagorodnyh-splavah">
+      <variant sortingIndex="150" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Протезирование на благородных сплавах</title>
+       </properties>
+      </variant>
+      <node identifier="85db8ad4-b863-c73c-e3b2-9bf48fbd451d" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="ccdd8872-a01d-cb4b-0411-39ece8d01897" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="fefe976f-1676-33d0-c6bc-684d696fbe7d" nodeName="protezirovanie-na-osnove-dioksida-cirkoniya">
+      <variant sortingIndex="100" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Протезирование на основе диоксида циркония</title>
+       </properties>
+      </variant>
+      <node identifier="f12b4576-458d-6af1-e8b9-1d02a77c1e63" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="c242d0f3-7219-b648-6ba6-0ed10adf4b29" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="1a19e9f8-d7ed-0c5f-383f-09596d534521" nodeName="protezirovanie-pri-malom-kolichestve-ostavshihsya-zubov">
+      <variant sortingIndex="350" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Протезирование при малом количестве оставшихся зубов</title>
+       </properties>
+      </variant>
+      <node identifier="f513f711-5904-d365-b776-257a84e57333" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="d4e9e545-628d-1e00-c6c0-3d54dabe4fff" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="f3e4bd51-814f-d9fd-a404-4fe19f9d3a8e" nodeName="protezirovanie-pri-polnoj-potere-zubov">
+      <variant sortingIndex="400" workspace="live" nodeType="Sfi.Erm:Service" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <title __type="string">Протезирование при полной потере зубов</title>
+       </properties>
+      </variant>
+      <node identifier="3ade4473-89a2-b190-5344-f8c24cb12750" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="10e8359e-15ee-9e04-d549-fd541316ea3b" nodeName="price">
+       <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServicePrice" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Service title&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="ca55777c-5654-c1e2-6617-2d138df14c2e" nodeName="rentgenodiagnostika">
+     <variant sortingIndex="200" workspace="live" nodeType="Sfi.Erm:ServiceCategory" version="4" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <properties>
+       <targetMode __type="string">firstChildNode</targetMode>
+       <title __type="string">Рентгенодиагностика</title>
+      </properties>
+     </variant>
+    </node>
+   </node>
+   <node identifier="0543aa7c-aace-c8cf-887f-b8efb222cca6" nodeName="visit">
+    <variant sortingIndex="450" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="6" removed="" hidden="" hiddenInIndex="">
+     <dimensions/>
+     <accessRoles __type="array"/>
+     <properties>
+      <title __type="string">Записаться на приём</title>
+      <layout __type="string"></layout>
+      <subpageLayout __type="string"></subpageLayout>
+     </properties>
+    </variant>
+    <node identifier="a047ddc3-67d1-2603-6b30-34ae49acf8fe" nodeName="main">
+     <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="4" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <properties/>
+     </variant>
+     <node identifier="4bd1e7c3-4cf0-1c13-20ce-6fcc7315d9ca" nodeName="node-5454ce1998230">
+      <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Html" version="17" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <properties>
+        <source __type="string">&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;columns medium-8&quot;&gt;  
+		&lt;form action=&quot;https://docs.google.com/forms/d/1Eh7MQphE2EK1J46LINa9g8pmhk0RI9KUqZccQRq7jcU/formResponse?embedded=true&quot; method=&quot;POST&quot; id=&quot;ss-form&quot; target=&quot;_self&quot; onsubmit=&quot;&quot;&gt;
+			&lt;div role=&quot;list&quot; class=&quot;ss-question-list&quot; style=&quot;padding-left: 0&quot;&gt;
+
+
+
+				&lt;div class=&quot;row&quot;&gt;
+					&lt;div class=&quot;medium-6 columns&quot;&gt;
+						&lt;div class=&quot;ss-form-question errorbox-good&quot; role=&quot;listitem&quot;&gt;
+							&lt;div dir=&quot;ltr&quot; class=&quot;ss-item ss-item-required ss-text&quot;&gt;
+								&lt;div class=&quot;ss-form-entry&quot;&gt;
+									&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_389732072&quot;&gt;
+										&lt;div class=&quot;ss-q-title&quot;&gt;Имя
+									
+									&lt;span class=&quot;ss-required-asterisk&quot;&gt;*&lt;/span&gt;&lt;/div&gt;
+									&lt;div class=&quot;ss-q-help ss-secondary-text&quot; dir=&quot;ltr&quot;&gt;&lt;/div&gt;
+									&lt;/label&gt;
+									&lt;input type=&quot;text&quot; name=&quot;entry.389732072&quot; value=&quot;&quot; class=&quot;ss-q-short&quot; id=&quot;entry_389732072&quot; dir=&quot;auto&quot; aria-label=&quot;Имя  &quot; aria-required=&quot;true&quot; required=&quot;&quot; title=&quot;&quot;&gt;
+									&lt;div class=&quot;error-message&quot; id=&quot;1153090363_errorMessage&quot;&gt;&lt;/div&gt;
+								&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div class=&quot;medium-6 columns&quot;&gt;
+						&lt;div class=&quot;ss-form-question errorbox-good&quot; role=&quot;listitem&quot;&gt;
+							&lt;div dir=&quot;ltr&quot; class=&quot;ss-item ss-item-required ss-text&quot;&gt;
+								&lt;div class=&quot;ss-form-entry&quot;&gt;
+									&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_22978673&quot;&gt;
+										&lt;div class=&quot;ss-q-title&quot;&gt;Фамилия
+									
+									&lt;span class=&quot;ss-required-asterisk&quot;&gt;*&lt;/span&gt;&lt;/div&gt;
+									&lt;div class=&quot;ss-q-help ss-secondary-text&quot; dir=&quot;ltr&quot;&gt;&lt;/div&gt;
+									&lt;/label&gt;
+									&lt;input type=&quot;text&quot; name=&quot;entry.22978673&quot; value=&quot;&quot; class=&quot;ss-q-short&quot; id=&quot;entry_22978673&quot; dir=&quot;auto&quot; aria-label=&quot;Фамилия  &quot; aria-required=&quot;true&quot; required=&quot;&quot; title=&quot;&quot;&gt;
+									&lt;div class=&quot;error-message&quot; id=&quot;511676230_errorMessage&quot;&gt;&lt;/div&gt;
+								&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;row&quot;&gt;
+					&lt;div class=&quot;medium-6 columns&quot;&gt;
+						&lt;div class=&quot;ss-form-question errorbox-good&quot; role=&quot;listitem&quot;&gt;
+							&lt;div dir=&quot;ltr&quot; class=&quot;ss-item ss-item-required ss-text&quot;&gt;
+								&lt;div class=&quot;ss-form-entry&quot;&gt;
+									&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_1184045673&quot;&gt;
+										&lt;div class=&quot;ss-q-title&quot;&gt;Номер телефона
+									
+									&lt;span class=&quot;ss-required-asterisk&quot;&gt;*&lt;/span&gt;&lt;/div&gt;
+									&lt;div class=&quot;ss-q-help ss-secondary-text&quot; dir=&quot;ltr&quot;&gt;&lt;/div&gt;
+									&lt;/label&gt;
+									&lt;input type=&quot;text&quot; name=&quot;entry.1184045673&quot; value=&quot;&quot; class=&quot;ss-q-short&quot; id=&quot;entry_1184045673&quot; dir=&quot;auto&quot; aria-label=&quot;Номер телефона  &quot; aria-required=&quot;true&quot; required=&quot;&quot; title=&quot;&quot;&gt;
+									&lt;div class=&quot;error-message&quot; id=&quot;169297734_errorMessage&quot;&gt;&lt;/div&gt;
+								&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div class=&quot;medium-6 columns&quot;&gt;
+						&lt;div class=&quot;ss-form-question errorbox-good&quot; role=&quot;listitem&quot;&gt;
+							&lt;div dir=&quot;ltr&quot; class=&quot;ss-item ss-item-required ss-text&quot;&gt;
+								&lt;div class=&quot;ss-form-entry&quot;&gt;
+									&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_771113298&quot;&gt;
+										&lt;div class=&quot;ss-q-title&quot;&gt;E-mail
+									
+									&lt;span class=&quot;ss-required-asterisk&quot;&gt;*&lt;/span&gt;&lt;/div&gt;
+									&lt;div class=&quot;ss-q-help ss-secondary-text&quot; dir=&quot;ltr&quot;&gt;&lt;/div&gt;
+									&lt;/label&gt;
+									&lt;input type=&quot;text&quot; name=&quot;entry.771113298&quot; value=&quot;&quot; class=&quot;ss-q-short&quot; id=&quot;entry_771113298&quot; dir=&quot;auto&quot; aria-label=&quot;E-mail  &quot; aria-required=&quot;true&quot; required=&quot;&quot; title=&quot;&quot;&gt;
+									&lt;div class=&quot;error-message&quot; id=&quot;1776486154_errorMessage&quot;&gt;&lt;/div&gt;
+								&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+
+
+				&lt;div class=&quot;ss-form-question errorbox-good&quot; role=&quot;listitem&quot;&gt;
+					&lt;div dir=&quot;ltr&quot; class=&quot;ss-item ss-item-required ss-radio&quot;&gt;
+						&lt;div class=&quot;ss-form-entry&quot;&gt;
+							&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_362795666&quot;&gt;
+								&lt;div class=&quot;ss-q-title&quot;&gt;Это Ваш первый визит?
+							
+							&lt;span class=&quot;ss-required-asterisk&quot;&gt;*&lt;/span&gt;&lt;/div&gt;
+							&lt;div class=&quot;ss-q-help ss-secondary-text&quot; dir=&quot;ltr&quot;&gt;&lt;/div&gt;
+							&lt;/label&gt;
+							&lt;ul class=&quot;ss-choices&quot; role=&quot;radiogroup&quot; aria-label=&quot;Это Ваш первый визит?  &quot;&gt;
+								&lt;li class=&quot;ss-choice-item&quot;&gt;&lt;label&gt;&lt;span class=&quot;ss-choice-item-control goog-inline-block&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.178109708&quot; value=&quot;Первичный приём&quot; id=&quot;group_178109708_1&quot; role=&quot;radio&quot; class=&quot;ss-q-radio&quot; aria-label=&quot;Первичный приём&quot; required=&quot;&quot; aria-required=&quot;true&quot;&gt;&lt;/span&gt;
+									&lt;span class=&quot;ss-choice-label&quot;&gt;Первичный приём&lt;/span&gt;
+									&lt;/label&gt;
+								&lt;/li&gt;
+								&lt;li class=&quot;ss-choice-item&quot;&gt;&lt;label&gt;&lt;span class=&quot;ss-choice-item-control goog-inline-block&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.178109708&quot; value=&quot;Повторный приём&quot; id=&quot;group_178109708_2&quot; role=&quot;radio&quot; class=&quot;ss-q-radio&quot; aria-label=&quot;Повторный приём&quot; required=&quot;&quot; aria-required=&quot;true&quot;&gt;&lt;/span&gt;
+									&lt;span class=&quot;ss-choice-label&quot;&gt;Повторный приём&lt;/span&gt;
+									&lt;/label&gt;
+								&lt;/li&gt;
+							&lt;/ul&gt;
+							&lt;div class=&quot;error-message&quot; id=&quot;362795666_errorMessage&quot;&gt;&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;ss-form-question errorbox-good&quot; role=&quot;listitem&quot;&gt;
+					&lt;div dir=&quot;ltr&quot; class=&quot;ss-item  ss-checkbox&quot;&gt;
+						&lt;div class=&quot;ss-form-entry&quot;&gt;
+							&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_1695432663&quot;&gt;
+								&lt;div class=&quot;ss-q-title&quot;&gt;Какая услуга Вас интересует&lt;/div&gt;
+								&lt;div class=&quot;ss-q-help ss-secondary-text&quot; dir=&quot;ltr&quot;&gt;&lt;/div&gt;
+							&lt;/label&gt;
+							&lt;ul class=&quot;ss-choices&quot; role=&quot;group&quot; aria-label=&quot;Какая услуга Вас интересует  &quot;&gt;
+								&lt;li class=&quot;ss-choice-item&quot;&gt;&lt;label&gt;&lt;span class=&quot;ss-choice-item-control goog-inline-block&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;entry.1157444396&quot; value=&quot;Терапевтическая стоматология&quot; id=&quot;group_1157444396_1&quot; role=&quot;checkbox&quot; class=&quot;ss-q-checkbox&quot;&gt;&lt;/span&gt;
+									&lt;span class=&quot;ss-choice-label&quot;&gt;Терапевтическая стоматология&lt;/span&gt;
+									&lt;/label&gt;
+								&lt;/li&gt;
+								&lt;li class=&quot;ss-choice-item&quot;&gt;&lt;label&gt;&lt;span class=&quot;ss-choice-item-control goog-inline-block&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;entry.1157444396&quot; value=&quot;Ортопедическая стоматология&quot; id=&quot;group_1157444396_2&quot; role=&quot;checkbox&quot; class=&quot;ss-q-checkbox&quot;&gt;&lt;/span&gt;
+									&lt;span class=&quot;ss-choice-label&quot;&gt;Ортопедическая стоматология&lt;/span&gt;
+									&lt;/label&gt;
+								&lt;/li&gt;
+								&lt;li class=&quot;ss-choice-item&quot;&gt;&lt;label&gt;&lt;span class=&quot;ss-choice-item-control goog-inline-block&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;entry.1157444396&quot; value=&quot;Ортодонтия&quot; id=&quot;group_1157444396_3&quot; role=&quot;checkbox&quot; class=&quot;ss-q-checkbox&quot;&gt;&lt;/span&gt;
+									&lt;span class=&quot;ss-choice-label&quot;&gt;Ортодонтия&lt;/span&gt;
+									&lt;/label&gt;
+								&lt;/li&gt;
+								&lt;li class=&quot;ss-choice-item&quot;&gt;&lt;label&gt;&lt;span class=&quot;ss-choice-item-control goog-inline-block&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;entry.1157444396&quot; value=&quot;Пародонтология&quot; id=&quot;group_1157444396_4&quot; role=&quot;checkbox&quot; class=&quot;ss-q-checkbox&quot;&gt;&lt;/span&gt;
+									&lt;span class=&quot;ss-choice-label&quot;&gt;Пародонтология&lt;/span&gt;
+									&lt;/label&gt;
+								&lt;/li&gt;
+								&lt;li class=&quot;ss-choice-item&quot;&gt;&lt;label&gt;&lt;span class=&quot;ss-choice-item-control goog-inline-block&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;entry.1157444396&quot; value=&quot;Хирургическая стоматология и имплантология&quot; id=&quot;group_1157444396_5&quot; role=&quot;checkbox&quot; class=&quot;ss-q-checkbox&quot;&gt;&lt;/span&gt;
+									&lt;span class=&quot;ss-choice-label&quot;&gt;Хирургическая стоматология и имплантология&lt;/span&gt;
+									&lt;/label&gt;
+								&lt;/li&gt;
+								&lt;li class=&quot;ss-choice-item&quot;&gt;&lt;label&gt;&lt;span class=&quot;ss-choice-item-control goog-inline-block&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;entry.1157444396&quot; value=&quot;Другое&quot; id=&quot;group_1157444396_6&quot; role=&quot;checkbox&quot; class=&quot;ss-q-checkbox&quot;&gt;&lt;/span&gt;
+									&lt;span class=&quot;ss-choice-label&quot;&gt;Другое&lt;/span&gt;
+									&lt;/label&gt;
+								&lt;/li&gt;
+							&lt;/ul&gt;
+							&lt;div class=&quot;error-message&quot; id=&quot;1695432663_errorMessage&quot;&gt;&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;ss-form-question errorbox-good&quot; role=&quot;listitem&quot;&gt;
+					&lt;div dir=&quot;ltr&quot; class=&quot;ss-item  ss-select&quot;&gt;
+						&lt;div class=&quot;ss-form-entry&quot;&gt;
+							&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_269156210&quot;&gt;
+								&lt;div class=&quot;ss-q-title&quot;&gt;К какому врачу Вы хотите записаться на приём?&lt;/div&gt;
+								&lt;div class=&quot;ss-q-help ss-secondary-text&quot; dir=&quot;ltr&quot;&gt;&lt;/div&gt;
+							&lt;/label&gt;
+							&lt;select name=&quot;entry.269156210&quot; id=&quot;entry_269156210&quot; aria-label=&quot;К какому врачу Вы хотите записаться на приём?  &quot;&gt;
+								&lt;option value=&quot;&quot;&gt;&lt;/option&gt;
+								&lt;option value=&quot;Олег Ермолаев&quot;&gt;Олег Ермолаев&lt;/option&gt;
+								&lt;option value=&quot;Сергей Матикс&quot;&gt;Сергей Матикс&lt;/option&gt;
+								&lt;option value=&quot;Анна Седова (Голубкова)&quot;&gt;Анна Седова (Голубкова)&lt;/option&gt;
+								&lt;option value=&quot;Татьяна Палащенко&quot;&gt;Татьяна Палащенко&lt;/option&gt;
+								&lt;option value=&quot;Андрей Степанов&quot;&gt;Андрей Степанов&lt;/option&gt;
+								&lt;option value=&quot;Олеся Якунцева&quot;&gt;Олеся Якунцева&lt;/option&gt;
+								&lt;option value=&quot;Ирина Бахныкина&quot;&gt;Ирина Бахныкина&lt;/option&gt;
+								&lt;option value=&quot;Ирина Теперина&quot;&gt;Ирина Теперина&lt;/option&gt;
+							&lt;/select&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;ss-form-question errorbox-good&quot; role=&quot;listitem&quot;&gt;
+					&lt;div dir=&quot;ltr&quot; class=&quot;ss-item  ss-date&quot;&gt;
+						&lt;div class=&quot;ss-form-entry&quot;&gt;
+							&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_226223782&quot;&gt;
+								&lt;div class=&quot;ss-q-title&quot;&gt;Ваши пожелания по времени приёма&lt;/div&gt;
+								&lt;div class=&quot;ss-q-help ss-secondary-text&quot; dir=&quot;ltr&quot;&gt;&lt;/div&gt;
+							&lt;/label&gt;
+					
+						  
+						  
+						  
+&lt;div class=&quot;ss-q-datetime&quot;&gt;
+	&lt;div class=&quot;ss-datetime-box goog-inline-block&quot;&gt;
+		&lt;select name=&quot;entry.226223782_day&quot; class=&quot;ss-day-dropdown&quot; id=&quot;entry.226223782_day&quot; aria-label=&quot;Число&quot;&gt;
+			&lt;option value=&quot;&quot;&gt;День&lt;/option&gt;
+			&lt;option value=&quot;1&quot;&gt;1&lt;/option&gt;
+			&lt;option value=&quot;2&quot;&gt;2&lt;/option&gt;
+			&lt;option value=&quot;3&quot;&gt;3&lt;/option&gt;
+			&lt;option value=&quot;4&quot;&gt;4&lt;/option&gt;
+			&lt;option value=&quot;5&quot;&gt;5&lt;/option&gt;
+			&lt;option value=&quot;6&quot;&gt;6&lt;/option&gt;
+			&lt;option value=&quot;7&quot;&gt;7&lt;/option&gt;
+			&lt;option value=&quot;8&quot;&gt;8&lt;/option&gt;
+			&lt;option value=&quot;9&quot;&gt;9&lt;/option&gt;
+			&lt;option value=&quot;10&quot;&gt;10&lt;/option&gt;
+			&lt;option value=&quot;11&quot;&gt;11&lt;/option&gt;
+			&lt;option value=&quot;12&quot;&gt;12&lt;/option&gt;
+			&lt;option value=&quot;13&quot;&gt;13&lt;/option&gt;
+			&lt;option value=&quot;14&quot;&gt;14&lt;/option&gt;
+			&lt;option value=&quot;15&quot;&gt;15&lt;/option&gt;
+			&lt;option value=&quot;16&quot;&gt;16&lt;/option&gt;
+			&lt;option value=&quot;17&quot;&gt;17&lt;/option&gt;
+			&lt;option value=&quot;18&quot;&gt;18&lt;/option&gt;
+			&lt;option value=&quot;19&quot;&gt;19&lt;/option&gt;
+			&lt;option value=&quot;20&quot;&gt;20&lt;/option&gt;
+			&lt;option value=&quot;21&quot;&gt;21&lt;/option&gt;
+			&lt;option value=&quot;22&quot;&gt;22&lt;/option&gt;
+			&lt;option value=&quot;23&quot;&gt;23&lt;/option&gt;
+			&lt;option value=&quot;24&quot;&gt;24&lt;/option&gt;
+			&lt;option value=&quot;25&quot;&gt;25&lt;/option&gt;
+			&lt;option value=&quot;26&quot;&gt;26&lt;/option&gt;
+			&lt;option value=&quot;27&quot;&gt;27&lt;/option&gt;
+			&lt;option value=&quot;28&quot;&gt;28&lt;/option&gt;
+			&lt;option value=&quot;29&quot;&gt;29&lt;/option&gt;
+			&lt;option value=&quot;30&quot;&gt;30&lt;/option&gt;
+			&lt;option value=&quot;31&quot;&gt;31&lt;/option&gt;
+		&lt;/select&gt;
+		&lt;select name=&quot;entry.226223782_month&quot; class=&quot;ss-month-dropdown&quot; id=&quot;entry.226223782_month&quot; aria-label=&quot;Месяц&quot;&gt;
+			&lt;option value=&quot;&quot;&gt;Месяц&lt;/option&gt;
+			&lt;option value=&quot;1&quot;&gt;Январь&lt;/option&gt;
+			&lt;option value=&quot;2&quot;&gt;Февраль&lt;/option&gt;
+			&lt;option value=&quot;3&quot;&gt;Март&lt;/option&gt;
+			&lt;option value=&quot;4&quot;&gt;Апрель&lt;/option&gt;
+			&lt;option value=&quot;5&quot;&gt;Май&lt;/option&gt;
+			&lt;option value=&quot;6&quot;&gt;Июнь&lt;/option&gt;
+			&lt;option value=&quot;7&quot;&gt;Июль&lt;/option&gt;
+			&lt;option value=&quot;8&quot;&gt;Август&lt;/option&gt;
+			&lt;option value=&quot;9&quot;&gt;Сентябрь&lt;/option&gt;
+			&lt;option value=&quot;10&quot;&gt;Октябрь&lt;/option&gt;
+			&lt;option value=&quot;11&quot;&gt;Ноябрь&lt;/option&gt;
+			&lt;option value=&quot;12&quot;&gt;Декабрь&lt;/option&gt;
+		&lt;/select&gt;
+		&lt;div class=&quot;ss-datetime-box-spacer goog-inline-block&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;ss-q-time goog-inline-block&quot;&gt;
+		&lt;div class=&quot;ss-datetime-box goog-inline-block&quot; dir=&quot;ltr&quot;&gt;
+			&lt;select name=&quot;entry.226223782_hour&quot; id=&quot;entry.226223782_hour&quot; aria-label=&quot;Часы&quot;&gt;
+				&lt;option value=&quot;&quot;&gt;Часы&lt;/option&gt;
+				&lt;option value=&quot;10&quot;&gt;10&lt;/option&gt;
+				&lt;option value=&quot;11&quot;&gt;11&lt;/option&gt;
+				&lt;option value=&quot;12&quot;&gt;12&lt;/option&gt;
+				&lt;option value=&quot;13&quot;&gt;13&lt;/option&gt;
+				&lt;option value=&quot;14&quot;&gt;14&lt;/option&gt;
+				&lt;option value=&quot;15&quot;&gt;15&lt;/option&gt;
+				&lt;option value=&quot;16&quot;&gt;16&lt;/option&gt;
+				&lt;option value=&quot;17&quot;&gt;17&lt;/option&gt;
+				&lt;option value=&quot;18&quot;&gt;18&lt;/option&gt;
+				&lt;option value=&quot;19&quot;&gt;19&lt;/option&gt;
+				&lt;option value=&quot;20&quot;&gt;20&lt;/option&gt;
+			&lt;/select&gt;
+			:
+			&lt;select name=&quot;entry.226223782_minute&quot; id=&quot;entry.226223782_minute&quot; aria-label=&quot;Минуты&quot;&gt;
+				&lt;option value=&quot;&quot;&gt;Минуты&lt;/option&gt;
+				&lt;option value=&quot;00&quot;&gt;00&lt;/option&gt;
+				&lt;option value=&quot;30&quot;&gt;30&lt;/option&gt;
+			&lt;/select&gt;
+			&lt;div class=&quot;ss-datetime-box-spacer goog-inline-block&quot;&gt;&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;ss-form-question errorbox-good&quot; role=&quot;listitem&quot;&gt;
+					&lt;div dir=&quot;ltr&quot; class=&quot;ss-item  ss-paragraph-text&quot;&gt;
+						&lt;div class=&quot;ss-form-entry&quot;&gt;
+							&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_137139168&quot;&gt;
+								&lt;div class=&quot;ss-q-title&quot;&gt;Комментарий&lt;/div&gt;
+								&lt;div class=&quot;ss-q-help ss-secondary-text&quot; dir=&quot;ltr&quot;&gt;&lt;/div&gt;
+							&lt;/label&gt;
+							&lt;textarea name=&quot;entry.137139168&quot; rows=&quot;8&quot; cols=&quot;0&quot; class=&quot;ss-q-long&quot; id=&quot;entry_137139168&quot; dir=&quot;auto&quot; aria-label=&quot;Комментарий  &quot;&gt;&lt;/textarea&gt;
+							&lt;div class=&quot;error-message&quot; id=&quot;471397730_errorMessage&quot;&gt;&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;input type=&quot;hidden&quot; name=&quot;draftResponse&quot; value=&quot;[,,&quot;-5050058888914336993&quot;]
+					&quot;&gt;
+				&lt;input type=&quot;hidden&quot; name=&quot;pageHistory&quot; value=&quot;0&quot;&gt;
+				&lt;input type=&quot;hidden&quot; name=&quot;fbzx&quot; value=&quot;-5050058888914336993&quot;&gt;
+				&lt;div class=&quot;ss-item ss-navigate&quot;&gt;
+					&lt;table id=&quot;navigation-table&quot;&gt;
+						&lt;tbody&gt;
+							&lt;tr&gt;
+								&lt;td class=&quot;ss-form-entry goog-inline-block&quot; id=&quot;navigation-buttons&quot; dir=&quot;ltr&quot;&gt;
+									&lt;input type=&quot;submit&quot; name=&quot;submit&quot; value=&quot;Отправить&quot; id=&quot;ss-submit&quot; class=&quot;jfk-button jfk-button-action &quot;&gt;
+								&lt;/td&gt;
+							&lt;/tr&gt;
+						&lt;/tbody&gt;
+					&lt;/table&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/form&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</source>
+       </properties>
+      </variant>
+     </node>
+    </node>
+   </node>
+  </nodes>
+ </site>
+</root>

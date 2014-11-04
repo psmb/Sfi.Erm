@@ -1,0 +1,12 @@
+{namespace neos=TYPO3\Neos\ViewHelpers}
+
+<div class="ServicePrice">
+	<f:if condition="{disableEditing}">
+	    <f:then>
+	        {node.properties.text -> f:format.raw()}
+	    </f:then>
+	    <f:else>
+			{neos:contentElement.editable(property: 'text')}
+	    </f:else>
+	</f:if>
+</div>

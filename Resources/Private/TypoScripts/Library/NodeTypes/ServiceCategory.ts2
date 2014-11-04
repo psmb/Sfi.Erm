@@ -1,0 +1,5 @@
+prototype(Sfi.Erm:ServiceCategory) {
+	content = Sfi.Widgets:ContentCollection {
+		collection = ${q(node).children('[instanceof Sfi.Erm:Service]')}
+	}
+}

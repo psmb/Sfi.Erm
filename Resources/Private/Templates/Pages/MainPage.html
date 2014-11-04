@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{namespace neos=TYPO3\Neos\ViewHelpers}
+{namespace ts=TYPO3\TypoScript\ViewHelpers}
+<f:section name="body">
+	<f:render partial="Header.html" arguments="{_all}"/>
+	<div class="Intro">
+		<div class="row">
+			<div class="large-6 medium-6 columns">
+				<div class="Intro-Picture">
+					{introPicture -> f:format.raw()}
+				</div>
+				<div class="Circles">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+			<div class="large-6 medium-6 columns">
+				<div class="Intro-Text">
+					{introText -> f:format.raw()}
+				</div>
+			</div>
+		</div>
+	</div>
+	{content.main -> f:format.raw()}
+	<f:render partial="Footer.html"  arguments="{_all}"/>
+</f:section>

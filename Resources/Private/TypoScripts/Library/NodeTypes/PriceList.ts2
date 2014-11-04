@@ -1,0 +1,12 @@
+prototype(Sfi.Erm:PriceList) {
+	content = Sfi.Widgets:ContentCollection {
+		collection = ${q(site).find('[instanceof Sfi.Erm:ServiceCategory]')}
+		
+		prototype(Sfi.Erm:Service) {
+			sectionName = 'short'
+		}
+		prototype(Sfi.Erm:ServicePrice) {
+			disableEditing = ${true}
+		}
+	}
+}

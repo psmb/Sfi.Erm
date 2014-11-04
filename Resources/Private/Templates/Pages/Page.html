@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+{namespace neos=TYPO3\Neos\ViewHelpers}
+{namespace ts=TYPO3\TypoScript\ViewHelpers}
+<f:section name="body">
+	<f:render partial="Header.html" arguments="{_all}"/>
+	<div class="row"><div class="columns"><h1 class="PageTitle">{node.properties.title}</h1></div></div>
+	{content.main -> f:format.raw()}
+	<f:render partial="Footer.html"  arguments="{_all}"/>
+</f:section>

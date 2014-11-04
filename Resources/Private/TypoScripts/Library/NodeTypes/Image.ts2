@@ -1,0 +1,5 @@
+prototype(TYPO3.Neos.NodeTypes:Image) {
+	imageClassName = "Figure"
+	maximumWidth = 1200
+	maximumHeight = 800
+}

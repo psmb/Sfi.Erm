@@ -1,0 +1,8 @@
+page>
+page < default{
+	bodyTag.attributes.class = 'page'
+	body{
+		templatePath = 'resource://Sfi.Erm/Private/Templates/Pages/Page.html'
+	}
+}
+# If nothing matches, 'page' will be rendered

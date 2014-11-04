@@ -1,0 +1,35 @@
+{namespace neos=TYPO3\Neos\ViewHelpers}
+<f:section name="full">
+<div class="DoctorFull">
+	<neos:contentElement.wrap>
+			<div class="row">
+				<div class="large-6 columns">
+					<div class="DoctorFull-Picture">{picture -> f:format.raw()}</div>
+				</div>
+				<div class="large-6 columns">
+					<h1 class="DoctorFull-Title">{node.properties.title}</h1>
+					<div class="DoctorFull-Description">{neos:contentElement.editable(property: 'description')}</div>
+					<div class="DoctorFull-Credo">{neos:contentElement.editable(property: 'credo')}</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="large-8 large-offset-2 medium-10 medium-offset-1 columns">
+					<div class="DoctorFull-Text">{content.main -> f:format.raw()}</div>
+				</div>
+			</div>
+	</neos:contentElement.wrap>
+</div>
+
+</f:section>
+
+<f:section name="short">
+	<li>
+		<div class="Doctor-Short">
+			<neos:link.node node="{node}">
+				<div class="Doctor-Picture">{picture -> f:format.raw()}</div>
+				<h3 class="Doctor-Title" >{node.properties.title}</h3>
+				<div class="Doctor-Description" >{node.properties.description -> f:format.raw()}</div>
+			</neos:link.node>
+		</div>
+	</li>
+</f:section>

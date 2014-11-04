@@ -1,0 +1,5 @@
+/**
+ * Root TypoScript template for the ermolaev.co site
+ */
+include: Pages/_Default.ts2
+include: **/*

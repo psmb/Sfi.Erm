@@ -1,0 +1,18 @@
+mainPage < default{
+	bodyTag.attributes.class = 'Main'
+	body{
+		templatePath = 'resource://Sfi.Erm/Private/Templates/Pages/MainPage.html'
+		introPicture = TYPO3.Neos.NodeTypes:Image{
+			@override.node = ${q(node).children('introPicture').get(0)}
+		}
+		introText = TYPO3.Neos.NodeTypes:Text{
+			@override.node = ${q(node).children('introText').get(0)}
+		}
+		
+	}
+}
+
+root.mainPage {
+	condition = ${q(node).is('[instanceof Sfi.Erm:MainPage]')}
+	renderPath = '/mainPage'
+}

@@ -1,0 +1,7 @@
+prototype(TYPO3.Neos.NodeTypes:Text) {
+	attributes.class = 'Text'
+}
+
+prototype(TYPO3.Neos.NodeTypes:Headline) {
+	attributes.class = 'Heading'
+}

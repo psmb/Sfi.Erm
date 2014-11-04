@@ -1,0 +1,13 @@
+doctor < default{
+	bodyTag.attributes.class = 'Doctor'
+	body{
+		content.main = Sfi.Erm:Doctor {
+			@override.node = ${q(node).get(0)}
+		}
+	}
+}
+
+root.doctor {
+	condition = ${q(node).is('[instanceof Sfi.Erm:Doctor]')}
+	renderPath = '/doctor'
+}

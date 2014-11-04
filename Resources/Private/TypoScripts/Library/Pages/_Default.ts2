@@ -1,0 +1,49 @@
+prototype(Sfi.Erm:Page) >
+prototype(Sfi.Erm:Page) < prototype(TYPO3.Neos:Page) {	
+	head {
+		stylesheets.site = TYPO3.TypoScript:Template {
+			templatePath = 'resource://Sfi.Erm/Private/Templates/Pages/Default.html'
+			sectionName = 'stylesheets'
+		}
+		stylesheets.backend = TYPO3.TypoScript:Template {
+			templatePath = 'resource://Sfi.Erm/Private/Templates/Pages/Default.html'
+			sectionName = 'backendStylesheets'
+			@process.1=${node.context.workspaceName != 'live' ? value:''}
+		}
+		javascripts.site = TYPO3.TypoScript:Template {
+			templatePath = 'resource://Sfi.Erm/Private/Templates/Pages/Default.html'
+			sectionName = 'headScripts'
+		}
+	}
+
+	body {
+		templatePath = 'resource://Sfi.Erm/Private/Templates/Pages/Default.html'
+		partialRootPath = 'resource://Sfi.Erm/Private/Templates/Partials/'
+		sectionName = 'body'
+
+		header = TYPO3.Neos.NodeTypes:Html{
+			@override.node = ${q(site).children('header').get(0)}
+		}
+		footer = TYPO3.Neos.NodeTypes:Html{
+			@override.node = ${q(site).children('footer').get(0)}
+		}
+
+		menu = Menu{
+			entryLevel = 1
+			maximumLevels = 2
+		}
+		
+		content {
+			main = ContentCollection {
+				nodePath = 'main'
+			}
+		}
+
+		javascripts.site = TYPO3.TypoScript:Template {
+			templatePath = 'resource://Sfi.Erm/Private/Templates/Pages/Default.html'
+			sectionName = 'bodyScripts'
+		}
+	}
+}
+default>
+default = Sfi.Erm:Page

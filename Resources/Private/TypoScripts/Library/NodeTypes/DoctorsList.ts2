@@ -1,0 +1,11 @@
+prototype(Sfi.Erm:DoctorsList) {
+	content = Sfi.Widgets:ContentCollection {
+		collection = ${q(site).find('[instanceof Sfi.Erm:Doctor]')}
+		
+		prototype(Sfi.Erm:Doctor) {
+			sectionName = 'short'
+			picture.maximumWidth = 250
+			picture.maximumHeight = 250
+		}
+	}
+}

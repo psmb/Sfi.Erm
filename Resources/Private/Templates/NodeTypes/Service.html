@@ -1,0 +1,18 @@
+<f:section name="full">
+	<div class="ServiceFull">
+		<div class="row">
+			<div class="columns">
+				<h1 class="Service-Title">{node.properties.title}</h1>
+				<div class="Service-Description">{content.main -> f:format.raw()}</div>
+				<div>{price -> f:format.raw()}</div>
+			</div>
+		</div>
+	</div>
+</f:section>
+
+<f:section name="short">
+	<div class="ServiceShort">
+		<h3 class="ServiceShort-Title">{node.properties.title}</h3>
+		<div>{price -> f:format.raw()}</div>
+	</div>
+</f:section>
